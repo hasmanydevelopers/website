@@ -22,4 +22,19 @@ background-image:url("/images/layout-shadow-bottom.png");
 background-repeat:repeat-x;
 height:160px;
 }
+/*
+#recent_project {
+padding-top:40px;
+position:relative;
+}
+#recent_project span {
+background:none repeat scroll 0 0 rgba(0, 0, 0, 0.698);
+color:white;
+font:24px/45px Helvetica,Sans-Serif;
+padding:10px;
+position:absolute;
+top:260px;
+width:490px;
+}
+*/
 
