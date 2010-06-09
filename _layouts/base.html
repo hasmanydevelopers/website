@@ -9,9 +9,25 @@
     <link rel="stylesheet" href="/stylesheets/blueprint/print.css" type="text/css" media="print">
     <!--[if lt IE 8]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="/stylesheets/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/stylesheets/hmd.css" type="text/css" media="screen, projection">
 </head>
   <body>
-  {{ content }}
+    <div id="header-wrap">
+      <div id="header" class="container">
+        <div id="logo" class="span-6">
+          has_many :developers
+        </div>
+      </div>
+    </div>
+    <div id="wrap">
+      <div id="layout" class="container">
+        {{ content }}
+      </div>
+    </div>
+    <div id="footer-wrap">
+      <div id="header" class="container">
+      </div>
+    </div>
   </body>
 </html>
 

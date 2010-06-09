@@ -1,0 +1,25 @@
+body {
+background-color:#333333;
+margin:0;
+}
+#header-wrap {
+background-color:#333333;
+background-image:url("/images/navbg.png");
+background-repeat:repeat-x;
+border-bottom:1px solid #5C5C5C;
+height:83px;
+padding:10px 0 0;
+}
+#wrap {
+background-color:#FFFFFF;
+background-image:url("/images/layout-shadow.png");
+background-repeat:repeat-x;
+padding:18px 0;
+}
+#footer-wrap {
+background-color:#333333;
+background-image:url("/images/layout-shadow-bottom.png");
+background-repeat:repeat-x;
+height:160px;
+}
+
