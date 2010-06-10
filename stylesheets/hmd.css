@@ -36,4 +36,31 @@ width:265px;
 height:20px;
 text-indent:-9999px;
 }
+ul#navigation {
+float:right;
+list-style-type:none;
+line-height:22px;
+margin:0;
+position:relative;
+font-size:18px;
+}
+ul#navigation li {
+float:left;
+margin:0;
+padding:0;
+text-align:center;
+margin-right:20px;
+padding:1px;
+}
+ul#navigation a {
+color:#FFFFFF;
+text-decoration:none;
+}
+ul#navigation a.on{
+ color: #89ec02;
+}
+ul#navigation a:hover{
+/* color: #ff9bff; */
+ color: #f0a513;
+}
 
