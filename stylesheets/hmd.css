@@ -7,7 +7,7 @@ background-color:#333333;
 background-image:url("/images/navbg.png");
 background-repeat:repeat-x;
 border-bottom:1px solid #5C5C5C;
-height:83px;
+height:100px;
 padding:10px 0 0;
 }
 #wrap {
@@ -20,21 +20,20 @@ padding:18px 0;
 background-color:#333333;
 background-image:url("/images/layout-shadow-bottom.png");
 background-repeat:repeat-x;
-height:160px;
+height:80px;
 }
-/*
-#recent_project {
-padding-top:40px;
-position:relative;
+#hmd {
+background-image:url(/images/hmd.png);
+display:block;
+width:640px;
+height:49px;
+text-indent:-9999px;
 }
-#recent_project span {
-background:none repeat scroll 0 0 rgba(0, 0, 0, 0.698);
-color:white;
-font:24px/45px Helvetica,Sans-Serif;
-padding:10px;
-position:absolute;
-top:260px;
-width:490px;
+#awd {
+background-image:url(/images/awd.png);
+display:block;
+width:265px;
+height:20px;
+text-indent:-9999px;
 }
-*/
 
