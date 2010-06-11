@@ -9,10 +9,10 @@
  */
 
 (function($){
-	$.fn.extend({ 
+	$.fn.extend({
 		infiniteCarousel: function(options)
 		{
-			var defaults = 
+			var defaults =
 			{
 				transitionSpeed: 800,
 				displayTime: 6000,
@@ -41,7 +41,7 @@
 				onPauseClick: function(){}
 			};
 		var options = $.extend(defaults, options);
-	
+
     		return this.each(function() {
     			var randID = Math.round(Math.random()*100000000);
 			var o=options;
@@ -85,7 +85,7 @@
 			{
 				$(obj).append('<div id="textholder'+randID+'_'+i+'" class="textholder" style="position:absolute;width:'+imgWidth+'px;bottom:0px;margin-bottom:'+-(imgHeight*o.textholderHeight+containerBorder)+'px;"><span></span></div>');
 				$('#textholder'+randID+'_'+i).css({'left':(i-1)*(imgWidth+parseInt(o.padding)*2),'margin-left':parseInt(o.padding)+containerPaddingLeft,'margin-right':o.padding});
-				$('#textholder'+randID+'_'+i).height(imgHeight*o.textholderHeight).css({'backgroundColor':'#FFF','opacity':'0.5'});
+				$('#textholder'+randID+'_'+i).height(imgHeight*o.textholderHeight).css({'backgroundColor':'#FFF','opacity':'0.8'});
 				html = '<div class="minmax" id="minmax'+randID+'_'+i+'" style="width:8px;height:8px;position:absolute;top:1px;right:10px;cursor:pointer;background:url('+o.imagePath+'caption.gif) no-repeat 0 -8px"></div>';
 				html += '<div class="close" id="close'+randID+'_'+i+'" style="width:8px;height:8px;position:absolute;top:1px;right:1px;cursor:pointer;background:url('+o.imagePath+'caption.gif) no-repeat 0 0"></div>';
 				$('#textholder'+randID+'_'+i).append(html);
@@ -190,7 +190,7 @@
 				$('#thumbs'+randID+' div.thumb').hover(function(){$(this).animate({'opacity':1},150)},function(){if(viewable[0]!=this.id.split('_')[1]) $(this).animate({'opacity':.65},250)}); // add hover to thumbs
 				// Assign click handler for the thumbnails. Normally the format $('.thumb') would work but since it's outside of our object (obj) it would get called multiple times
 				$('#thumbs'+randID+' div').bind('click', thumbclick); // We use bind instead of just plain click so that we can repeatedly remove and reattach the handler
-				
+
 				if(!o.displayThumbnailNumbers) $('#thumbs'+randID+' div').text('');
 				if(!o.displayThumbnailBackground) $('#thumbs'+randID+' div').css({'background-image':'none'});
 			}
@@ -409,3 +409,4 @@
 	}
 	});
 })(jQuery);
+

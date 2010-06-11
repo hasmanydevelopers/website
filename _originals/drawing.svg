@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.47 r22583"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="drawing.svg">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -33,10 +33,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="445.10835"
+     inkscape:cx="446.36603"
      inkscape:cy="564.60044"
      inkscape:document-units="px"
-     inkscape:current-layer="g3718"
+     inkscape:current-layer="g3820"
      showgrid="false"
      inkscape:window-width="1360"
      inkscape:window-height="741"
@@ -104,41 +104,87 @@
                    inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
                    inkscape:export-xdpi="97.244522"
                    inkscape:export-ydpi="97.244522">
-                  <text
-                     inkscape:export-ydpi="144.60251"
-                     inkscape:export-xdpi="144.60251"
-                     inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
-                     id="text3646"
-                     y="476.20758"
-                     x="42.828896"
-                     style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-                     xml:space="preserve"><tspan
-                       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Andale Mono Bold"
-                       y="476.20758"
-                       x="42.828896"
-                       id="tspan3648"
-                       sodipodi:role="line"><tspan
-                         dx="0 -0.71428573 -0.71428573 -0.71428573 3.5714283 -0.71428573 -0.71428573 -0.71428573"
-                         dy="15.714289 1.6276132e-08 1.0891597e-06 -15.714288 9.2857161"
-                         id="tspan3652"
-                         style="font-size:56px;font-weight:bold;fill:#eeeeee;-inkscape-font-specification:Andale Mono Bold">has<tspan
+                  <g
+                     id="g3775"
+                     inkscape:export-xdpi="97.244522"
+                     inkscape:export-ydpi="97.244522"
+                     inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png">
+                    <g
+                       id="g3784"
+                       inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
+                       inkscape:export-xdpi="97.244522"
+                       inkscape:export-ydpi="97.244522">
+                      <g
+                         id="g3793"
+                         inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
+                         inkscape:export-xdpi="97.244522"
+                         inkscape:export-ydpi="97.244522">
+                        <g
+                           id="g3802"
+                           inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
+                           inkscape:export-xdpi="97.244522"
+                           inkscape:export-ydpi="97.244522">
+                          <g
+                             id="g3811"
+                             inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
+                             inkscape:export-xdpi="97.244522"
+                             inkscape:export-ydpi="97.244522">
+                            <g
+                               id="g3820"
+                               inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
+                               inkscape:export-xdpi="97.244522"
+                               inkscape:export-ydpi="97.244522">
+                              <rect
+                                 style="fill:#000000;stroke:none"
+                                 id="rect3838"
+                                 width="733.57141"
+                                 height="111.42858"
+                                 x="12.857148"
+                                 y="555.93359" />
+                              <text
+                                 inkscape:export-ydpi="93.629997"
+                                 inkscape:export-xdpi="93.629997"
+                                 inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
+                                 id="text3646"
+                                 y="476.20758"
+                                 x="42.828896"
+                                 style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+                                 xml:space="preserve"><tspan
+                                   style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Andale Mono Bold"
+                                   y="476.20758"
+                                   x="42.828896"
+                                   id="tspan3648"
+                                   sodipodi:role="line"><tspan
+                                   dx="0 -0.71428573 -0.71428573 -0.71428573 3.5714283 -0.71428573 -0.71428573 -0.71428573"
+                                   dy="15.714289 1.6276132e-08 1.0891597e-06 -15.714288 9.2857161"
+                                   id="tspan3652"
+                                   style="font-size:56px;font-weight:bold;fill:#eeeeee;-inkscape-font-specification:Andale Mono Bold">has<tspan
    style="font-size:40px"
    id="tspan3696"
    dy="-9.2857151">_</tspan>many </tspan><tspan
-                         dx="-29.285702 -5.7142859 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573"
-                         id="tspan3650"
-                         style="font-size:56px;font-weight:bold;fill:#d76cff;-inkscape-font-specification:Andale Mono Bold">:developers</tspan></tspan></text>
-                  <text
-                     id="text3663"
-                     y="525.505"
-                     x="44.857143"
-                     style="font-size:40px;font-style:normal;font-weight:normal;fill:#fdd99b;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-                     xml:space="preserve"><tspan
-                       style="font-size:24px;fill:#fdd99b"
-                       y="525.505"
-                       x="44.857143"
-                       id="tspan3665"
-                       sodipodi:role="line">Agile web development</tspan></text>
+                                   dx="-29.285702 -5.7142859 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573"
+                                   id="tspan3650"
+                                   style="font-size:56px;font-weight:bold;fill:#f0a513;-inkscape-font-specification:Andale Mono Bold">:developers</tspan></tspan></text>
+                              <text
+                                 id="text3663"
+                                 y="525.505"
+                                 x="44.857143"
+                                 style="font-size:40px;font-style:normal;font-weight:normal;fill:#fdd99b;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+                                 xml:space="preserve"
+                                 inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/awd.png"
+                                 inkscape:export-xdpi="77.497475"
+                                 inkscape:export-ydpi="77.497475"><tspan
+                                   style="font-size:24px;fill:#ff9bff"
+                                   y="525.505"
+                                   x="44.857143"
+                                   id="tspan3665"
+                                   sodipodi:role="line">{Agile web development}</tspan></text>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
                 </g>
               </g>
             </g>
