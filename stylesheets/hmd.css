@@ -38,8 +38,7 @@ color:#FFFFFF;
 text-decoration:none;
 }
 #footer a:hover{
- color: #ff9bff;
-/* color: #f0a513;*/
+ color: #f0a513;
 }
 #copy {
 text-align:center;
@@ -54,8 +53,8 @@ text-align:right;
 #hmd {
 background-image:url(/images/hmd.png);
 display:block;
-width:640px;
-height:49px;
+width:625px;
+height:50px;
 text-indent:-9999px;
 }
 #awd {
@@ -89,8 +88,7 @@ ul#navigation a.on{
  color: #89ec02;
 }
 ul#navigation a:hover{
- color: #ff9bff;
-/* color: #f0a513;*/
+ color: #f0a513;
 }
 #recent_projects div {
   font-size:15px;

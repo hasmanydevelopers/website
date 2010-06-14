@@ -38,10 +38,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="g3820"
      showgrid="false"
-     inkscape:window-width="1360"
-     inkscape:window-height="741"
-     inkscape:window-x="1280"
-     inkscape:window-y="0"
+     inkscape:window-width="1280"
+     inkscape:window-height="730"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -69,7 +69,7 @@
            height="109.09647"
            x="80.812202"
            y="428.08792" /></flowRegion><flowPara
-         id="flowPara3644"></flowPara></flowRoot>    <g
+         id="flowPara3644" /></flowRoot>    <g
        id="g3667"
        inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
        inkscape:export-xdpi="99.077171"
@@ -142,30 +142,6 @@
                                  x="12.857148"
                                  y="555.93359" />
                               <text
-                                 inkscape:export-ydpi="93.629997"
-                                 inkscape:export-xdpi="93.629997"
-                                 inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
-                                 id="text3646"
-                                 y="476.20758"
-                                 x="42.828896"
-                                 style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-                                 xml:space="preserve"><tspan
-                                   style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Andale Mono Bold"
-                                   y="476.20758"
-                                   x="42.828896"
-                                   id="tspan3648"
-                                   sodipodi:role="line"><tspan
-                                   dx="0 -0.71428573 -0.71428573 -0.71428573 3.5714283 -0.71428573 -0.71428573 -0.71428573"
-                                   dy="15.714289 1.6276132e-08 1.0891597e-06 -15.714288 9.2857161"
-                                   id="tspan3652"
-                                   style="font-size:56px;font-weight:bold;fill:#eeeeee;-inkscape-font-specification:Andale Mono Bold">has<tspan
-   style="font-size:40px"
-   id="tspan3696"
-   dy="-9.2857151">_</tspan>many </tspan><tspan
-                                   dx="-29.285702 -5.7142859 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573"
-                                   id="tspan3650"
-                                   style="font-size:56px;font-weight:bold;fill:#f0a513;-inkscape-font-specification:Andale Mono Bold">:developers</tspan></tspan></text>
-                              <text
                                  id="text3663"
                                  y="525.505"
                                  x="44.857143"
@@ -178,7 +154,52 @@
                                    y="525.505"
                                    x="44.857143"
                                    id="tspan3665"
-                                   sodipodi:role="line">{Agile web development}</tspan></text>
+                                   sodipodi:role="line"><tspan
+                                   style="fill:#f0a513"
+                                   id="tspan2924">{</tspan><tspan
+                                   style="fill:#eeeeee"
+                                   id="tspan2920">Agile web development</tspan><tspan
+                                   style="fill:#f0a513"
+                                   id="tspan2922">}</tspan></tspan></text>
+                              <g
+                                 id="g2944"
+                                 inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
+                                 inkscape:export-xdpi="93.629997"
+                                 inkscape:export-ydpi="93.629997">
+                                <text
+                                   xml:space="preserve"
+                                   style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+                                   x="59.257469"
+                                   y="451.20758"
+                                   id="text3646"
+                                   inkscape:export-filename="/home/edgar/sandboxes/hasmanydevelopers/images/hmd.png"
+                                   inkscape:export-xdpi="93.629997"
+                                   inkscape:export-ydpi="93.629997"><tspan
+                                   sodipodi:role="line"
+                                   id="tspan3648"
+                                   x="59.257469"
+                                   y="451.20758"
+                                   style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Courier New;-inkscape-font-specification:Andale Mono Bold;fill:#f0a513"><tspan
+                                   style="font-size:56px;font-weight:bold;fill:#f0a513;-inkscape-font-specification:Andale Mono Bold"
+                                   id="tspan3652"
+                                   dy="15.714289 1.6276132e-08 1.0891597e-06 -15.714288 9.2857161"
+                                   dx="0 -0.71428573 -0.71428573 -0.71428573 3.5714283 -0.71428573 -0.71428573 -0.71428573">has<tspan
+   dy="-9.2857151"
+   id="tspan3696"
+   style="font-size:40px;fill:#f0a513">_</tspan>many </tspan></tspan></text>
+                                <text
+                                   id="text2940"
+                                   y="467.36218"
+                                   x="311.28574"
+                                   style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+                                   xml:space="preserve"><tspan
+                                   dx="0 -10.000001 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573 -0.71428573"
+                                   style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#eeeeee;font-family:Courier New;-inkscape-font-specification:Courier New Bold"
+                                   y="467.36218"
+                                   x="311.28574"
+                                   id="tspan2942"
+                                   sodipodi:role="line">:developers</tspan></text>
+                              </g>
                             </g>
                           </g>
                         </g>
