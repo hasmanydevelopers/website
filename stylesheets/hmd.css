@@ -97,8 +97,9 @@ ul#navigation a.on{
 ul#navigation a:hover{
  color: #f0a513;
 }
-#recent_projects div {
-  font-size:15px;
+#recent_projects {
+  font-size: 20px;
+  font-weight: bold;
 }
 #layout p {
   font-weight: bold;
