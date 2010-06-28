@@ -103,6 +103,7 @@ ul#navigation a:hover{
   font-size: 175%;
   line-height: 100%;
   font-weight: normal;
-  margin-bottom: 12%
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
