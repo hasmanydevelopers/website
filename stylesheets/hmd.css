@@ -110,3 +110,20 @@ ul#navigation a:hover{
   margin-bottom: 0;
 }
 
+#faq h2 {
+  font-weight: bold;
+  margin: 12px 0 0 0;
+}
+
+#faq ul
+{
+margin-left: 0;
+padding-left: 0;
+list-style: none;
+}
+
+#faq li
+{
+padding-left: 0px;
+}
+
