@@ -36,11 +36,11 @@
           <h2><a href="/" id="awd" title="Go to home">Agile Web Development</a></h2>
         </div>
         <div class="span-12 last">
-          <ul id="navigation">
-            {% if page.is_home %}
-              <li><a href="faq.html" title="Frequently Asked Questions">FAQ (Frequently Asked Questions)</a></li>
-            {% endif %}
-          </ul>
+          {% if page.is_home %}
+            <ul id="navigation">
+                <li><a href="faq.html" title="Frequently Asked Questions">FAQ (Frequently Asked Questions)</a></li>
+            </ul>
+          {% endif %}
         </div>
       </div>
     </div>
