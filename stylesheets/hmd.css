@@ -115,15 +115,16 @@ ul#navigation a:hover{
   margin: 12px 0 0 0;
 }
 
-#faq ul
-{
-margin-left: 0;
-padding-left: 0;
-list-style: none;
+#faq ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
-#faq li
-{
-padding-left: 0px;
+#faq li {
+  padding-left: 22px;
+  background-image: url(images/faq-bullet.png);
+  background-repeat: no-repeat;
+  background-position: 0 11px;
 }
 
