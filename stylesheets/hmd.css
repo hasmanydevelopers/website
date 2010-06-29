@@ -101,6 +101,16 @@ ul#navigation a:hover{
   font-size: 20px;
   font-weight: bold;
 }
+
+#recent_projects a {
+color:#000;
+text-decoration:none;
+}
+#recent_projects a:hover{
+ color: #f0a513;
+ background: #fff;
+}
+
 #layout p {
   font-weight: bold;
   font-size: 175%;
