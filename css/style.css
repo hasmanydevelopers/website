@@ -31,7 +31,7 @@ body, ul, li, h1, h2, h3{
       }
       
       #pd_container {
-        height: 300px;
+        height: 320px;
       }
              
       #main-text {
@@ -191,34 +191,51 @@ a.pd_loading:hover{
 .pd_photo{
 	position:absolute;
 	z-index:10;
+	/*
 	border:7px solid #f9f9f9;
-	border-bottom:28px solid #f9f9f9;
-	width:340px;
-	height:195px;
+	border-bottom:44px solid #f9f9f9;
+	*/
+	border: 1px solid #a3acb6;
+	background: #fff;
+	width:350px;
+	height: 235px;
 	top:0px;
 	left:0px;
 	display:none;
 	-moz-box-shadow:1px 1px 5px #555;
 	-webkit-box-shadow:1px 1px 5px #555;
 	box-shadow:1px 1px 5px #555;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
-	border-radius:4px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
 	
 	cursor:pointer;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 .pd_photo img{
 	width:340px;
 	height:195px;
 }
+
+.pd_photo a{
+	font-weight: bold;
+	color: #555555;
+}
+
 .pd_photo span.delete{
 	position:absolute;
 	width:16px;
 	height:16px;
 	right:-16px;
-	top:2px;
+	top:12px;
 	cursor:pointer;
 	background:#fff url(../images/close.png) no-repeat center center;
+	
+	border-top: 1px solid #a3acb6;
+	border-right: 1px solid #a3acb6;
+	border-bottom: 1px solid #a3acb6;
+	
 	-moz-border-radius:0px 8px 8px 0px;
 	-webkit-border-top-right-radius:8px;
 	-webkit-border-bottom-right-radius:8px;
