@@ -5,10 +5,10 @@ body, ul, li, h1, h2, h3{
 
 
       body {
-        background: #f0f2f4 url(../images/bg_gradient.png) repeat-x;
+        background: #000; /*#f0f2f4 url(../images/bg_gradient.png) repeat-x;*/
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 13px;
-        color: #555555;
+        font-size: 16px;
+        color: #ddd;
         margin: auto; /*center in viewport */
         padding-top: 20px;
         width: 800px;
@@ -16,12 +16,13 @@ body, ul, li, h1, h2, h3{
       
       #menu {
         float: right;
-        width: 320px;
+        width: 255px;
+        padding-right: 50px;
       }
       
       #logo {
 	      width: 871px;
-	      height: 127px;
+	      height: 138px;
 	      background: url(../images/banner.png) no-repeat;
       }
       
@@ -37,6 +38,11 @@ body, ul, li, h1, h2, h3{
       #main-text {
         paddin00g-right: 30px;
         padding-left: 15px;
+        
+      }
+      
+      #main-text p {
+        color: #9ca5af;
       }
       
       
@@ -44,6 +50,7 @@ body, ul, li, h1, h2, h3{
         width: 255px;
         height: 15px;
         background:transparent url(../images/rounded_box_top.png) repeat-x;
+        
        }
        
        .rounded-box-bottom {
@@ -59,6 +66,7 @@ body, ul, li, h1, h2, h3{
         border-right: 1px solid #a3acb6;
         background: #ededed url(../images/box_gradient.png) repeat-x;
         margin:0px 10px 0px 0px;
+        font-size: 13px;
         
         /*
         -moz-border-radius:8px;
@@ -88,14 +96,98 @@ body, ul, li, h1, h2, h3{
         padding-right: 20px;
       }
       
-      .menu-item {
-        background:transparent url(../images/menu_item.png) repeat-x;
-        width: 102px;
-        height: 29px;
-        padding-top: 7px;
-        text-align:center;
-        color: #fff;
-      }
+    
+      
+/*      .menu-item-contact {*/
+/*        padding-left: 10px;*/
+/*        height: 32px;*/
+/*        width: 32;*/
+/*        margin: auto;*/
+/*        text-align:center;*/
+/*        color: #fff;*/
+/*        background:transparent url(../images/contact.png) no-repeat;*/
+/*      }*/
+        .menu-item-home {
+	        display: block;
+	        width: 24px;
+	        height: 24px;
+	        background: url('../images/home.png') bottom;
+	        text-indent: -99999px;
+	        margin: auto;
+	        cursor: pointer;
+        }
+        .menu-item-home:hover {
+	        background-position: 0 0;
+        }
+        
+        .menu-item-projects {
+            display: block;
+            width: 24px;
+            height: 24px;
+            background: url('../images/projects.png') bottom;
+            text-indent: -99999px;
+            margin: auto;
+            cursor: pointer;
+        }
+        .menu-item-projects:hover {
+            background-position: 0 0;
+        }
+        
+       .menu-item-web {
+            display: block;
+            width: 24px;
+            height: 24px;
+            background: url('../images/web.png') bottom;
+            text-indent: -99999px;
+            margin: auto;
+            cursor: pointer;
+        }
+        .menu-item-web:hover {
+            background-position: 0 0;
+        }
+        
+        .menu-item-mobile {
+            display: block;
+            width: 24px;
+            height: 24px;
+            background: url('../images/phone.png') bottom;
+            text-indent: -99999px;
+            margin: auto;
+            cursor: pointer;
+        }
+        .menu-item-mobile:hover {
+            background-position: 0 0;
+        }
+        
+        .menu-item-who {
+            display: block;
+            width: 24px;
+            height: 24px;
+            background: url('../images/who.png') bottom;
+            text-indent: -99999px;
+            margin: auto;
+            cursor: pointer;
+        }
+        .menu-item-who:hover {
+            background-position: 0 0;
+        }
+        
+      .menu-item-contact {
+	        display: block;
+	        width: 24px;
+	        height: 24px;
+	        background: url('../images/contact.png') bottom;
+	        text-indent: -99999px;
+	        margin: auto;
+	        cursor: pointer;
+        }
+        .menu-item-contact:hover {
+	        background-position: 0 0;
+        }
+      
+
+        
+        
       
       #footer {
 	      color: #6c767f;
@@ -212,6 +304,7 @@ a.pd_loading:hover{
 	cursor:pointer;
 	padding-top: 10px;
 	padding-left: 10px;
+	font-size: 13px;
 }
 .pd_photo img{
 	width:340px;
