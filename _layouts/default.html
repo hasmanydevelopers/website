@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>has_many: developers</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="description" content="" />
+		<meta name="keywords" content=""/>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" href="css/grids-min.css" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="css/gen-style.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/tipTip.css" type="text/css" media="screen"/>
+    
+   
+	</head>
+	
+	<body>
+	  <div id="menu"> 
+	    <div class="yui3-g">
+	      
+	      <div class="yui3-u-1-6"> 
+	        <div class="menu-item-home" title="Home">
+	        </div>
+	      </div>
+	      
+	      <div class="yui3-u-1-6"> 
+	        <div class="menu-item-projects" title="Projects">
+	        </div>
+	      </div>
+	      
+	      <div class="yui3-u-1-6"> 
+	        <div class="menu-item-web" title="Web development">
+	        </div>
+	      </div>
+	      
+	      <div class="yui3-u-1-6"> 
+	        <div class="menu-item-mobile" title="Mobile development">
+	        </div>
+	      </div>
+	      
+	      <div class="yui3-u-1-6"> 
+	        <div class="menu-item-who" title="Who we are...">
+	        </div>
+	      </div>
+	      
+	      <div class="yui3-u-1-6"> 
+	        <div class="menu-item-contact" title="Contact us">
+	        </div>
+	      </div>
+	      
+	    </div>
+	  </div>
+	
+		<div id="logo" > </div>
+		
+		<div style="float: right; width: 100%;">
+      <h1 style="float: right; padding-right: 100px; margin-bottom: 30px;"> ::{{ page.title }} </h1>
+    </div>
+    
+<!--    <div id="content" class="yui3-g">-->
+    <div id="content" >
+    
+	    {{ content }}
+
+	  </div>
+    
+    <br />
+    <br />
+    <br />
+  
+  <div id="footer"><div><div>
+	  Copyright &copy; 2011, has_many :developers All Rights Reserved.
+  </div>
+  
+  <br />
+
+
+		<!-- The JavaScript -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
+		<script src="jquery.tipTip.minified.js"></script>
+		
+		<script>
+		$(function(){
+      $(".menu-item-home").tipTip();
+      $(".menu-item-home").click( function() { $(location).attr('href',"index.html"); });
+      
+      $(".menu-item-projects").tipTip();
+      $(".menu-item-projects").click( function() { $(location).attr('href',"projects.html"); });
+      
+      $(".menu-item-web").tipTip();
+      $(".menu-item-web").click( function() { $(location).attr('href',"web.html"); });
+      
+      $(".menu-item-mobile").tipTip();
+      $(".menu-item-mobile").click( function() { $(location).attr('href',"mobile.html"); });
+      
+      $(".menu-item-who").tipTip();
+      $(".menu-item-who").click( function() { $(location).attr('href',"who.html"); });
+      
+      $(".menu-item-contact").tipTip();
+      $(".menu-item-contact").click( function() { $(location).attr('href',"contact.html"); });
+      
+      
+      //Caption Sliding (Partially Hidden to Visible)
+			$('.boxgrid.caption').hover(function(){
+				$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:160});
+			}, function() {
+				$(".cover", this).stop().animate({top:'220px'},{queue:false,duration:160});
+			});
+
+        
+    });
+    </script>
+    
+    
+	</body>
+</html>

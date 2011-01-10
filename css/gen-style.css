@@ -11,7 +11,7 @@ body, ul, li, h1, h2, h3{
         color: #ddd;
         margin: auto; /*center in viewport */
         padding-top: 20px;
-        width: 800px;
+        width: 880px;
       }
       
       #menu {
@@ -32,6 +32,12 @@ body, ul, li, h1, h2, h3{
         height: 700px;
       }
       
+      #content p {
+        color: #ffffff;
+/*        padding-left: 20px;*/
+/*        padding-right: 20px;*/
+      }
+      
       #pd_container {
         height: 320px;
       }
@@ -45,6 +51,7 @@ body, ul, li, h1, h2, h3{
       #main-text p {
         color: #9ca5af;
       }
+      
       
       
       .rounded-box-top {
@@ -187,7 +194,17 @@ body, ul, li, h1, h2, h3{
         }
       
 
-        
+      #contact_card {
+          width: 635px;
+          height: 428px;
+          background: url(../images/contact_card.png) no-repeat;
+          padding-top: 90px;
+          padding-left: 60px;
+          color: #fff;
+          margin-top: 80px;
+          margin-left: auto;
+          margin-right: auto;
+      }
         
       
       #footer {
@@ -343,3 +360,59 @@ a.pd_loading:hover{
 	background:transparent url(../images/paperball.png) no-repeat center center;
 	position:absolute;
 }
+
+
+
+
+*{ padding:0px; margin:0px; }
+a{ color: #ff7c11;}
+h3{ margin: 10px 10px 0 10px; color:#FFF; font:18pt Arial, sans-serif; letter-spacing:-1px; font-weight: bold;  }
+
+.boxgrid{ 
+	width: 325px; 
+	height: 260px; 
+	margin:10px; 
+	float:left; 
+	background:#161613; 
+	border: solid 2px #8399AF; 
+	overflow: hidden; 
+	position: relative; 
+}
+	.boxgrid img{ 
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		border: 0; 
+	}
+	.boxgrid p{ 
+		padding: 0 10px; 
+		color:#afafaf; 
+		font-weight:bold; 
+		font:10pt "Lucida Grande", Arial, sans-serif; 
+	}
+	
+.boxcaption{ 
+	float: left; 
+	position: absolute; 
+	background: #000; 
+	height: 100%; 
+	width: 100%; 
+	opacity: .85; 
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+	.captionfull .boxcaption {
+		top: 260px;
+		left: 0;
+	}
+	.caption .boxcaption {
+		top: 220px;
+		left: 0;
+	}
+	
+h3 a{}
+
+

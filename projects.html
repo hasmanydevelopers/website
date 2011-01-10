@@ -1,0 +1,14 @@
+---
+layout: default
+title: Portfolio
+---
+
+{% for post in site.posts limit:5 %}
+<div class="boxgrid caption">
+	<img src="{{post.image}}" alt="" />
+  <div class="cover boxcaption">
+    <h3>{{ post.title }}</h3>
+      {{ post.content }}
+  </div>
+</div>
+{% endfor %}
