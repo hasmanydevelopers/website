@@ -1,53 +1,8 @@
-<!doctype html>
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]> <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]> <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-
-	<title>Home &raquo; has_many :developers</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-
-	<script type="text/javascript" src="http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js"></script>
-	<script type="text/javascript">!window.jQuery && document.write(unescape('%3Cscript src="/javascript/modernizr-1.7.min.js"%3E%3C/script%3E'))</script>
-
-  <link rel="stylesheet" type="text/css" href="/stylesheets/global.css" />
-</head>
-
-<body class="index">
-<div id="bodyCanvas">
-
-<div id="global-hat">
-  <div class="wrapper">
-    <ul class="global-hat-nav">
-      <li class="current"><a href="/" title="Home" class="current">Home</a></li>
-      <li class="link"><a href="#" title="Our Work" class="link">Our Work</a></li>
-      <li class="link"><a href="#" title="About Us" class="link">About Us</a></li>
-      <li class="link"><a href="#" title="Contact Us" class="link">Contact</a></li>
-    </ul>
-
-    <ul class="social-networks">
-    <!--
-			<li class="facebook"><a href="#" title="Facebook" target="_blank">Facebook</a></li>
-			<li class="twitter"><a href="#" title="Twitter" target="_blank">Twitter</a></li>
-			<li class="flickr"><a href="#" title="Flickr" target="_blank">Flickr</a></li>
-			<li class="vimeo"><a href="#" title="Vimeo" target="_blank">Vimeo</a></li>
-      <li class="rss-feed"><a href="#" title="Feed" target="_blank">Feed</a></li>
-    -->
-    </ul>
-  </div>
-</div>
-
-<div id="container">
-  <div id="logo">
-    <h1><a href="/">has_many :developers</a></h1>
-    <h2>Agile Web Development</h2>
-  </div>
-
+---
+layout: default
+title: Home
+is_home: true
+---
   <div id="slideshow">
     <div class="prev">
       <span>Previous Slide</span>
@@ -59,13 +14,25 @@
           <h3>Piictu</h3>
           <p>Description TODO</p>
         </div>
-
         <div class="slide" >
           <a target="_blank" href="#"><img src="/images/assets/parentingbridge.png" alt="Parenting Bridge" /></a>
           <h3>Parenting Bridge</h3>
           <p>Description TODO</p>
         </div>
+<!--
 
+        <div class="slide" >
+          <a target="_blank" href="#"><img src="/images/assets/sugarstats.png" alt="SugarStats"  /></a>
+          <h3>SugarStats</h3>
+          <p>Description TODO</p>
+        </div>
+
+        <div class="slide" >
+          <a target="_blank" href="#"><img src="/images/assets/giveatweet.png" alt="Give a Tweet"  /></a>
+          <h3>Give a Tweet</h3>
+          <p>Description TODO</p>
+        </div>
+-->
       </div>
     </div>
     <div class="next">
@@ -75,6 +42,7 @@
 
 
   <div id="grid">
+<!--
     <div class="newest-clients w4">
       <h4>New Clients</h4>
 		<div class="scroll-pane ui-widget ui-widget-header ui-corner-all">
@@ -144,7 +112,7 @@
 			<div class="scroll-bar">&nbsp;</div>
 		</div>
   </div>
-
+-->
   <div class="see-buy-like w4">
       <h4>We build Web Applications</h4>
       <p>That's it, we develop web applications.</p>
@@ -152,7 +120,7 @@
       <p>Then we start coding, and releasing your application in small iterations, listening to your feedback until you decide it is finished.</p>
   </div>
 
-
+<!--
   <div class="latest-projects w4">
     <h4>Featured Projects</h4>
 		  <div class="scroll-pane ui-widget ui-widget-header ui-corner-all">
@@ -205,6 +173,8 @@
 
   </div>
 
+-->
+
   <div class="w4">
     <div class="get-in-touch w2 first">
       <h4>Get in Touch</h4>
@@ -213,7 +183,7 @@
           <div class="col1">
             <div class="icontext">
               <div class="icon">
-                <img src="/assets/Uploads/rknofficelogo.png" alt="ROKKAN" width="84" height="84" />
+                <img src="/images/hmd_square.png" alt="has_many :developers" width="84" height="84" />
               </div>
               <div class="text">
                 <p>
@@ -233,49 +203,37 @@
               <a href="mailto:info@hasmanydevelopers.com">info@hasmanydevelopers.com</a><br />
             </p>
             <p>
-              <strong>Still using phone ;-)</strong><br />
-              +58 (212) 242-4379 / 6662<br />
-              +58 (212) 243-4055 / 6479<br />
+              <strong>Phone</strong><br />
+              +58 (212) 242 - 4379 / 6662<br />
+              +58 (212) 243 - 4055 / 6479<br />
             </p>
           </div>
         </div>
     </div>
 
         <div class="gamer-tags w2">
-            <h4>Gamer Tags</h4>
+            <h4>Our Tags</h4>
 
-            <p><p>We love games and we're good at them (or so we think). We welcome friendly challenges from agencies and gamers alike.&#xA0;</p></p>
+            <p><p>We love agile development and new technologies</p>
             <div class="splitCol">
+              <div class="col1">
+                <p>
+                  <a href="#">Ruby</a><br />
+                  <a href="#">Ruby on Rails</a><br />
+                  <a href="#">Behavior Driven Development</a><br />
+                  <a href="#">Test Driven Development</a><br />
+                  <a href="#">JQuery</a><br />
+                </p>
+              </div>
 
-                <div class="col1">
-                    <p>
-                        <strong>Gamer Tags (XBL)</strong><br />
-
-                            Rokkan - <a target="_blank" href="http://live.xbox.com/en-US/MyXbox/Profile?gamertag=Rokkan">Rokkan</a><br />
-
-                            Charles Bae (ECD) - <a target="_blank" href="http://live.xbox.com/en-US/MyXbox/Profile?gamertag=Seasons NYC">Seasons NYC</a><br />
-
-                            Jon Legere (PM) - <a target="_blank" href="http://live.xbox.com/en-US/MyXbox/Profile?gamertag=MetroWythe">MetroWythe</a><br />
-
-                            Chung Ng (COO) - <a target="_blank" href="http://live.xbox.com/en-US/MyXbox/Profile?gamertag=Drippie">Drippie</a><br />
-
-                            John Noe (CEO) - <a target="_blank" href="http://live.xbox.com/en-US/MyXbox/Profile?gamertag=JohnKnows">JohnKnows</a><br />
-
-                            Jim Blackwelder (VPT) - <a target="_blank" href="http://live.xbox.com/en-US/MyXbox/Profile?gamertag=BeCalmWildJerk">BeCalmWildJerk</a><br />
-
-                            Joey Dehnert (DEV) - <a target="_blank" href="http://live.xbox.com/en-US/MyXbox/Profile?gamertag=Blockbot">Blockbot</a><br />
-
-                            Kat Milkova (DEV) - <a target="_blank" href="http://live.xbox.com/en-US/MyXbox/Profile?gamertag=KitKatMilk">KitKatMilk</a><br />
-
-                    </p>
-                </div>
-
-                <div class="col2">
-                    <p>
-                        <strong>Send challenges to:</strong><br />
-                        <a href="mailto:challenge@rokkan.com">challenge@rokkan.com</a>
-                    </p>
-                </div>
+              <div class="col2">
+                <p>
+                  <a href="#">NoSQL</a><br />
+                  <a href="#">MongoDB</a><br />
+                  <a href="#">Redis</a><br />
+                  <a href="#">CouchDB</a><br />
+                </p>
+              </div>
 
             </div>
         </div>
@@ -283,39 +241,4 @@
     </div>
 
 </div>
-
-	<div id="footer">
-		<div class="copyright">
-			&copy;2011 has_many :developers. All Rights Reserved.
-		</div>
-	</div>
-
-</div>
-
-</div>
-
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-<script type="text/javascript">!window.jQuery && document.write(unescape('%3Cscript src="http://rokkan.com//mysite/javascript/jquery-1.5.min.js"%3E%3C/script%3E'))</script>
-
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-<script>!window.jQuery.ui && document.write(unescape('%3Cscript src="http://rokkan.com//mysite/javascript/jquery-ui-1.8.10.min.js"%3E%3C/script%3E'))</script>
-
-<!--[if lt IE 7 ]>
-	<script src="http://rokkan.com//mysite/javascript/dd_belatedpng.js"></script>
-	<script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
-<![endif]-->
-
-
-
-
-
-
-<script type="text/javascript" src="/javascript/plugins.base.js"></script>
-<script type="text/javascript" src="/javascript/plugins.slideshow.js"></script>
-<script type="text/javascript" src="/javascript/jquery.plugins.jswipe.js"></script>
-<script type="text/javascript" src="/javascript/global.js"></script>
-
-</body>
-
-</html>
 

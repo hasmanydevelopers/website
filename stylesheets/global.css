@@ -166,9 +166,8 @@ body.blog-single #logo {
 	position: absolute;
 	left: 0;
 	top: 11px;
-	width: 200px;
-	height: 50px;
-/*	height: 102px;*/
+	width: 408px;
+	height: 102px;
 	overflow: hidden;
     z-index: 5;
 	}
@@ -176,15 +175,13 @@ body.blog-single #logo {
 #logo h1 a {
 	background: url(../images/logo_hmd_bw.png) no-repeat left top;
 	display: block;
-	width: 200px;
-	height: 50px;
-/*	height: 102px;*/
+	width: 408px;
+	height: 102px;
 	overflow: hidden;
 	color: #171614;
 	font-size: 1px;
 	line-height: 1px;
 	text-indent: -9999px;
-	_background-image: url(../img/logo_rokkan.gif);
 	}
 
 #logo h2 {
@@ -1768,7 +1765,7 @@ height: 40px;
 	}
 
 #footer .copyright {
-	background: url(../images/logo_copyright_footer.jpg) no-repeat left top;
+	background: url(/images/hmd_square_footer.png) no-repeat left top;
 	padding: 15px 0 15px 47px;
 	}
 
