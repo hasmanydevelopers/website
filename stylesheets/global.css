@@ -845,6 +845,8 @@ body.iphone #global-hat .social-networks {
 	height: 120px;
 	width: 200px;
 	padding: 15px;
+	color: #fff;
+	font-size: 14px;
 	}
 
 #grid .our-work-gallery .project .hover a {
@@ -869,13 +871,14 @@ body.iphone #global-hat .social-networks {
 #grid .our-work-gallery .project .hover .hover-content ul li {
 	float: left;
 	clear: both;
-	cursor: pointer;
+	padding: 0 0 0 15px;
+	font-size: 14px;
 	}
 
 #grid .our-work-gallery .project .hover .hover-content ul li a {
 	display: block;
-	padding: 0 0 0 15px;
-	font-size: 14px;
+/*	padding: 0 0 0 15px;
+	font-size: 14px;*/
 	background: url(../images/arrow_right_white.gif) no-repeat center right;
 	padding-right: 17px;
 	cursor: pointer;
