@@ -166,7 +166,7 @@ body.blog-single #logo {
 	position: absolute;
 	left: 0;
 	top: 11px;
-	width: 408px;
+	width: 420px;
 	height: 102px;
 	overflow: hidden;
     z-index: 5;
@@ -175,7 +175,7 @@ body.blog-single #logo {
 #logo h1 a {
 	background: url(../images/logo_hmd_bw.png) no-repeat left top;
 	display: block;
-	width: 408px;
+	width: 420px;
 	height: 102px;
 	overflow: hidden;
 	color: #171614;
