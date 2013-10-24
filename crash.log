@@ -1,0 +1,177 @@
+Crashlog created at 2013-10-24 11:03:09 -0430
+
+===== MESSAGE:
+
+SyntaxError: item / (rep default):148: syntax error, unexpected keyword_end, expecting $end
+;  end ; _erbout.concat "\n\n    <d...
+      ^
+
+===== COMPILATION STACK:
+
+  - [item]   / (rep default)
+
+===== STACK TRACE:
+
+  0. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/erb.rb:838:in `eval'
+  1. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/erb.rb:838:in `result'
+  2. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/filters/erb.rb:34:in `run'
+  3. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
+  4. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/result_data/item_rep.rb:344:in `filter'
+  5. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
+  6. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule_context.rb:55:in `filter'
+  7. ./Rules:31:in `block in load'
+  8. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
+  9. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
+  10. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
+  11. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
+  12. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
+  13. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
+  14. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  15. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/base/source_data/site.rb:58:in `compile'
+  16. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:363:in `block in run'
+  17. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:404:in `run_listeners_while'
+  18. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/commands/compile.rb:362:in `run'
+  19. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  20. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  21. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  22. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/command_runner.rb:13:in `call'
+  23. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/cri-2.4.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  24. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
+  25. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
+  26. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
+  27. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
+  28. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
+  29. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
+  30. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
+  31. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli.rb:52:in `block in run'
+  32. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  33. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  34. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib/nanoc/cli.rb:50:in `run'
+  35. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/bin/nanoc:19:in `<top (required)>'
+  36. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/bin/nanoc:23:in `load'
+  37. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/bin/nanoc:23:in `<main>'
+  38. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/bin/ruby_noexec_wrapper:14:in `eval'
+  ... 41 more lines omitted. See full crash log for details.
+
+===== VERSION INFORMATION:
+
+nanoc 3.6.5 © 2007-2013 Denis Defreyne.
+Running ruby 1.9.3 (2013-02-22) on x86_64-darwin12.4.0 with RubyGems 2.0.5.
+
+===== SYSTEM INFORMATION:
+
+Darwin Felixs-MacBook-Pro.local 12.5.0 Darwin Kernel Version 12.5.0: Sun Sep 29 13:33:47 PDT 2013; root:xnu-2050.48.12~1/RELEASE_X86_64 x86_64
+
+===== INSTALLED GEMS:
+
+  adsf 1.1.1
+  bundler 1.3.5
+  colored 1.2
+  cri 2.4.0
+  nanoc 3.6.5
+  rack 1.5.2
+  stringex 2.1.0
+
+===== ENVIRONMENT:
+
+Apple_PubSub_Socket_Render => "/tmp/launch-WsEoOi/Render"
+Apple_Ubiquity_Message => "/tmp/launch-vQtT0d/Apple_Ubiquity_Message"
+BUNDLE_BIN_PATH => "/usr/local/rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.5/bin/bundle"
+BUNDLE_GEMFILE => "/Users/fmontes86/Documents/HMD/repos/Website-HMD/Gemfile"
+COMMAND_MODE => "unix2003"
+DISPLAY => "/tmp/launch-3dgKZm/org.macosforge.xquartz:0"
+GEM_HOME => "/usr/local/rvm/gems/ruby-1.9.3-p392@BLOG"
+GEM_PATH => "/usr/local/rvm/gems/ruby-1.9.3-p392@BLOG:/usr/local/rvm/gems/ruby-1.9.3-p392@global"
+GREP_COLOR => "1;32"
+GREP_OPTIONS => "--color=auto"
+HOME => "/Users/fmontes86"
+IRBRC => "/usr/local/rvm/rubies/ruby-1.9.3-p392/.irbrc"
+LC_CTYPE => ""
+LESS => "-R"
+LOGNAME => "fmontes86"
+LSCOLORS => "Gxfxcxdxbxegedabagacad"
+MY_RUBY_HOME => "/usr/local/rvm/rubies/ruby-1.9.3-p392"
+OLDPWD => "/Users/fmontes86/Documents/HMD/repos"
+PAGER => "less"
+PATH => "/usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/bin:/usr/local/rvm/gems/ruby-1.9.3-p392@global/bin:/usr/local/rvm/rubies/ruby-1.9.3-p392/bin:/usr/local/rvm/bin:/Applications/Postgres.app/Contents/MacOS/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"
+PKG_CONFIG_PATH => "/opt/local/lib/pkgconfig:/usr/local/homebrew/Cellar/imagemagick/6.8.0-10/lib/pkgconfig/:"
+PWD => "/Users/fmontes86/Documents/HMD/repos/Website-HMD"
+RUBYOPT => "-I/usr/local/rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.5/lib -rbundler/setup"
+RUBY_VERSION => "ruby-1.9.3-p392"
+SECURITYSESSIONID => "186a6"
+SHELL => "/bin/bash"
+SHLVL => "1"
+SSH_AUTH_SOCK => "/tmp/launch-LVym9c/Listeners"
+TERM => "xterm-256color"
+TERM_PROGRAM => "Apple_Terminal"
+TERM_PROGRAM_VERSION => "309"
+TERM_SESSION_ID => "9858F168-17C6-4DF4-A127-CB74593B7D43"
+TMPDIR => "/var/folders/15/gjnk6rts4f72y93fqrp4pwq00000gn/T/"
+USER => "fmontes86"
+_ => "/usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/bin/nanoc"
+_ORIGINAL_GEM_PATH => "/usr/local/rvm/gems/ruby-1.9.3-p392@BLOG:/usr/local/rvm/gems/ruby-1.9.3-p392@global"
+__CF_USER_TEXT_ENCODING => "0x1F5:0:0"
+rvm_alias_expanded => ""
+rvm_bin_path => "/usr/local/rvm/bin"
+rvm_docs_type => ""
+rvm_gemstone_package_file => ""
+rvm_gemstone_url => ""
+rvm_niceness => ""
+rvm_nightly_flag => ""
+rvm_path => "/usr/local/rvm"
+rvm_prefix => "/usr/local"
+rvm_proxy => ""
+rvm_quiet_flag => ""
+rvm_recommended_ruby => "rvm install ruby-1.9.3-p448"
+rvm_ruby_file => ""
+rvm_ruby_make => ""
+rvm_ruby_make_install => ""
+rvm_ruby_mode => ""
+rvm_ruby_string => ""
+rvm_script_name => ""
+rvm_sdk => ""
+rvm_silent_flag => ""
+rvm_version => "1.21.11 (master)"
+rvm_wrapper_name => ""
+
+===== GEMFILE.LOCK:
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    adsf (1.1.1)
+      rack (>= 1.0.0)
+    colored (1.2)
+    cri (2.4.0)
+      colored (>= 1.2)
+    nanoc (3.6.5)
+      cri (~> 2.3)
+    rack (1.5.2)
+    stringex (2.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  adsf
+  nanoc (~> 3.6.5)
+  stringex
+
+===== LOAD PATHS:
+
+  0. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib
+  1. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/stringex-2.1.0/lib
+  2. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/nanoc-3.6.5/lib
+  3. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/cri-2.4.0/lib
+  4. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/colored-1.2/lib
+  5. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/adsf-1.1.1/lib
+  6. /usr/local/rvm/gems/ruby-1.9.3-p392@BLOG/gems/rack-1.5.2/lib
+  7. /usr/local/rvm/gems/ruby-1.9.3-p392@global/gems/bundler-1.3.5/lib
+  8. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/site_ruby/1.9.1
+  9. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/site_ruby/1.9.1/x86_64-darwin12.4.0
+  10. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/site_ruby
+  11. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/vendor_ruby/1.9.1
+  12. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/vendor_ruby/1.9.1/x86_64-darwin12.4.0
+  13. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/vendor_ruby
+  14. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1
+  15. /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/x86_64-darwin12.4.0
