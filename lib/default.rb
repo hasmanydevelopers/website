@@ -7,8 +7,8 @@ include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::LinkTo
 
 module PostHelper
-  def get_pretty_date(post)
-    attribute_to_time(post[:created_at]).strftime('%B %-d, %Y')
+  def get_pretty_date(created_at)
+    attribute_to_time(created_at).strftime('%B %-d, %Y')
   end
 end
 

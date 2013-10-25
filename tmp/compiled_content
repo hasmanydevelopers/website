@@ -1,4 +1,4 @@
-{:	data{)I"/:ET{:default{	:	lastI"å3<!DOCTYPE HTML>
+{:	data{+I"/:ET{:default{	:	lastI"®2<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -45,12 +45,7 @@
               </ul>
             </li> -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Blog Home 1</a></li>
-                <li><a href="blog-home-2.html">Blog Home 2</a></li>
-                <li><a href="blog-post.html">Blog Post</a></li>
-              </ul>
+              <a href="/posts/">Blog </a>
             </li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
@@ -294,6 +289,8 @@
     
       
     
+      
+    
 
     <div class="container">
 
@@ -490,7 +487,7 @@
       </div><!-- /.row -->
 
     </div><!-- /.container -->
-  </body>;T:preI"r$<body>
+  </body>;T:preI"~$<body>
     
     <div id="myCarousel" class="carousel slide">
       <!-- Indicators -->
@@ -713,6 +710,8 @@
             </article>
           </div>
         
+      
+    
       
     
       
@@ -8259,7 +8258,7 @@ footer {
 
 }
 ;T;	@;
-@I"/about/;T{;{	;I"5<!DOCTYPE HTML>
+@I"/about/;T{;{	;I"Ð3<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8306,12 +8305,7 @@ footer {
               </ul>
             </li> -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Blog Home 1</a></li>
-                <li><a href="blog-home-2.html">Blog Home 2</a></li>
-                <li><a href="blog-post.html">Blog Post</a></li>
-              </ul>
+              <a href="/posts/">Blog </a>
             </li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
@@ -10795,7 +10789,7 @@ $('.carousel').carousel({
 $('.tooltip-social').tooltip({
   selector: "a[data-toggle=tooltip]"
 });T;	@U;
-@UI"0/images/screenshots_portafolio/logo_hmd_bw/;T{;{ I"!/about/images/officeoutside/;T{;{ I"/contact/;T{;{	;I"t!<!DOCTYPE HTML>
+@UI"0/images/screenshots_portafolio/logo_hmd_bw/;T{;{ I"!/about/images/officeoutside/;T{;{ I"/contact/;T{;{	;I"1 <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -10842,12 +10836,7 @@ $('.tooltip-social').tooltip({
               </ul>
             </li> -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Blog Home 1</a></li>
-                <li><a href="blog-home-2.html">Blog Home 2</a></li>
-                <li><a href="blog-post.html">Blog Post</a></li>
-              </ul>
+              <a href="/posts/">Blog </a>
             </li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
@@ -11751,7 +11740,7 @@ I"S<div class="container">
     </div>
   </footer>
 
-</div><!-- /.container -->;T;@kI"/portfolio/pickista/;T{;{	;I"<!DOCTYPE HTML>
+</div><!-- /.container -->;T;@kI"/portfolio/pickista/;T{;{	;I"Ö<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -11798,12 +11787,7 @@ I"S<div class="container">
               </ul>
             </li> -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Blog Home 1</a></li>
-                <li><a href="blog-home-2.html">Blog Home 2</a></li>
-                <li><a href="blog-post.html">Blog Post</a></li>
-              </ul>
+              <a href="/posts/">Blog </a>
             </li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
@@ -12042,7 +12026,7 @@ I"ÿ<h2>Cherno Alpha</h2>
           <li>Font-Awesome fonts come pre-installed!</li>
           <li>100% <strong>Free</strong> to Use</li>
           <li>Open Source: Use for any project, private or commercial!</li>
-        </ul>;T;@}I"/portfolio/cherno/;T{;{	;I"<!DOCTYPE HTML>
+        </ul>;T;@}I"/portfolio/cherno/;T{;{	;I"È<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -12089,12 +12073,7 @@ I"ÿ<h2>Cherno Alpha</h2>
               </ul>
             </li> -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Blog Home 1</a></li>
-                <li><a href="blog-home-2.html">Blog Home 2</a></li>
-                <li><a href="blog-post.html">Blog Post</a></li>
-              </ul>
+              <a href="/posts/">Blog </a>
             </li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
@@ -12186,7 +12165,7 @@ I"–<div class="col-lg-4 col-md-4 col-sm-4">
   <h3>Project Description</h3>
   <p>An app to monitorize alimentation habits, based on the Principles of Mindful Eating available at <a href="http://www.thecenterformindfuleating.org/principles">http://www.thecenterformindfuleating.org/principles</a>
   The purpose of this app is to test development strategies for creating mobile first, responsive apps.</p>
-</div>;T;@~I"%/posts/2013-02-10-my-first-post/;T{;{	;I"<!DOCTYPE HTML>
+</div>;T;@~I"%/posts/2013-02-10-my-first-post/;T{;{	;I"ˆ<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -12222,7 +12201,7 @@ I"–<div class="col-lg-4 col-md-4 col-sm-4">
             <li><a href="/about/">About</a></li>
             <!-- <li><a href="services.html">Services</a></li> -->
             <li><a href="/contact/">Contact</a></li>
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="portfolio-1-col.html">1 Column Portfolio</a></li>
@@ -12231,16 +12210,11 @@ I"–<div class="col-lg-4 col-md-4 col-sm-4">
                 <li><a href="portfolio-4-col.html">4 Column Portfolio</a></li>
                 <li><a href="portfolio-item.html">Single Portfolio Item</a></li>
               </ul>
-            </li>
+            </li> -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Blog Home 1</a></li>
-                <li><a href="blog-home-2.html">Blog Home 2</a></li>
-                <li><a href="blog-post.html">Blog Post</a></li>
-              </ul>
+              <a href="/posts/">Blog </a>
             </li>
-            <li class="dropdown">
+            <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="full-width.html">Full Width Page</a></li>
@@ -12249,89 +12223,46 @@ I"–<div class="col-lg-4 col-md-4 col-sm-4">
                 <li><a href="404.html">404</a></li>
                 <li><a href="pricing.html">Pricing Table</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav>
 
-    <div class="container">
+    <hr>
+<p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
 
-      <div class="row">
-
-        <div class="col-lg-12">
-          <h1 class="page-header">Blog Home 1 <small>Blog Homepage</small></h1>
-          <ol class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li class="active">Blog Home 1</li>
-          </ol>
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-8">
-          
-          <!-- <ul class="pager">
-            <li class="previous"><a href="#">&larr; Older</a></li>
-            <li class="next"><a href="#">Newer &rarr;</a></li>
-          </ul> -->
-
-        </div>
-
-        <div class="col-lg-4">
-          <div class="well">
-            <h4>Blog Search</h4>
-            <div class="input-group">
-              <input type="text" class="form-control">
-              <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><i class="icon-search"></i></button>
-              </span>
-            </div><!-- /input-group -->
-          </div><!-- /well -->
-          <div class="well">
-            <h4>Popular Blog Categories</h4>
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul class="list-unstyled">
-                    <li><a href="#dinosaurs">Dinosaurs</a></li>
-                    <li><a href="#spaceships">Spaceships</a></li>
-                    <li><a href="#fried-foods">Fried Foods</a></li>
-                    <li><a href="#wild-animals">Wild Animals</a></li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul class="list-unstyled">
-                    <li><a href="#alien-abductions">Alien Abductions</a></li>
-                    <li><a href="#business-casual">Business Casual</a></li>
-                    <li><a href="#robots">Robots</a></li>
-                    <li><a href="#fireworks">Fireworks</a></li>
-                  </ul>
-                </div>
-              </div>
-          </div><!-- /well -->
-          <div class="well">
-            <h4>Side Widget Well</h4>
-            <p>Bootstrap's default well's work great for side widgets! What is a widget anyways...?</p>
-          </div><!-- /well -->
-        </div>
-      </div>
-
-    </div><!-- /.container -->;T;	I"©<hr>
-<a href="blog-post.html"><img src="http://placehold.it/900x300" class="img-responsive"></a>
 <hr>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; 2013 has_many :developers. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/modern-business.js"></script>
+  </body>
+</html>
+;T;	I"H<hr>
 <p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
 <a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
 
 <hr>;T;
-I"©<hr>
-<a href="blog-post.html"><img src="http://placehold.it/900x300" class="img-responsive"></a>
-<hr>
+I"H<hr>
 <p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
 <a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
 
-<hr>;T;@„I"/portfolio/iriver/;T{;{	;I"'<!DOCTYPE HTML>
+<hr>;T;@„I"/portfolio/iriver/;T{;{	;I"ä<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -12378,12 +12309,7 @@ I"©<hr>
               </ul>
             </li> -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="blog-home-1.html">Blog Home 1</a></li>
-                <li><a href="blog-home-2.html">Blog Home 2</a></li>
-                <li><a href="blog-post.html">Blog Post</a></li>
-              </ul>
+              <a href="/posts/">Blog </a>
             </li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
@@ -12469,4 +12395,470 @@ I"²<div class="col-lg-4 col-md-4 col-sm-4">
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h3 style="color:black;" >Project Description</h3>
   <p>iRiver is a...</p>
-</div>;T;@ŠI"+/images/screenshots_portafolio/iriver/;T{;{ I",/images/screenshots_portafolio/iriver3/;T{;{ :versioni
+</div>;T;@ŠI"+/images/screenshots_portafolio/iriver/;T{;{ I",/images/screenshots_portafolio/iriver3/;T{;{ I"/posts/;T{;{	;I"“<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Has_many :developers - </title>
+    <link rel="stylesheet" href="/style.css">
+    
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc 3.6.5"> 
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+          <!-- <a class="navbar-brand" href="index.html">Has_many :developers</a> -->
+          <!-- <img src="./images/logo_hmd_bw.png" style="padding:10px;"> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <!-- <li><a href="services.html">Services</a></li> -->
+            <li><a href="/contact/">Contact</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="portfolio-1-col.html">1 Column Portfolio</a></li>
+                <li><a href="portfolio-2-col.html">2 Column Portfolio</a></li>
+                <li><a href="portfolio-3-col.html">3 Column Portfolio</a></li>
+                <li><a href="portfolio-4-col.html">4 Column Portfolio</a></li>
+                <li><a href="portfolio-item.html">Single Portfolio Item</a></li>
+              </ul>
+            </li> -->
+            <li class="dropdown">
+              <a href="/posts/">Blog </a>
+            </li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="full-width.html">Full Width Page</a></li>
+                <li><a href="sidebar.html">Sidebar Page</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="404.html">404</a></li>
+                <li><a href="pricing.html">Pricing Table</a></li>
+              </ul>
+            </li> -->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+     <div class="container">
+
+  <div class="row">
+
+    <div class="col-lg-12">
+      <h1 class="page-header">Blog Home 1 <small>Blog Homepage</small></h1>
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">Blog Home 1</li>
+      </ol>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-8">
+
+      
+        
+      
+        
+      
+        
+      
+        
+          <div class='post'>
+            <h1>My Firts Post in HMD</h1>
+            <p class="lead">by <a href="#">Felix Montes</a></p>
+            <hr>
+            <p><i class="icon-time"></i>Posted on February 12, 2013 </p>
+            <hr>
+            <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
+            <hr>
+<p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
+
+<hr>
+          </div>
+        
+      
+        
+          <div class='post'>
+            <h1>My Second Post</h1>
+            <p class="lead">by <a href="#">Write the name of the author new post</a></p>
+            <hr>
+            <p><i class="icon-time"></i>Posted on October 24, 2013 </p>
+            <hr>
+            <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
+            <hr>
+<p>This is my second post with rake!!.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
+
+<hr>
+          </div>
+        
+      
+
+      <!-- <ul class="pager">
+        <li class="previous"><a href="#">&larr; Older</a></li>
+        <li class="next"><a href="#">Newer &rarr;</a></li>
+      </ul> -->
+
+    </div>
+
+    <div class="col-lg-4">
+      <div class="well">
+        <h4>Blog Search</h4>
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="icon-search"></i></button>
+          </span>
+        </div><!-- /input-group -->
+      </div><!-- /well -->
+      <div class="well">
+        <h4>Popular Blog Categories</h4>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul class="list-unstyled">
+                <li><a href="#dinosaurs">Dinosaurs</a></li>
+                <li><a href="#spaceships">Spaceships</a></li>
+                <li><a href="#fried-foods">Fried Foods</a></li>
+                <li><a href="#wild-animals">Wild Animals</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul class="list-unstyled">
+                <li><a href="#alien-abductions">Alien Abductions</a></li>
+                <li><a href="#business-casual">Business Casual</a></li>
+                <li><a href="#robots">Robots</a></li>
+                <li><a href="#fireworks">Fireworks</a></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- /well -->
+      <div class="well">
+        <h4>Side Widget Well</h4>
+        <p>Bootstrap's default well's work great for side widgets! What is a widget anyways...?</p>
+      </div><!-- /well -->
+    </div>
+  </div>
+
+</div><!-- /.container -->
+
+    <div class="container">
+      <hr>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; 2013 has_many :developers. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/modern-business.js"></script>
+  </body>
+</html>
+;T;	I"
+ <div class="container">
+
+  <div class="row">
+
+    <div class="col-lg-12">
+      <h1 class="page-header">Blog Home 1 <small>Blog Homepage</small></h1>
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">Blog Home 1</li>
+      </ol>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-8">
+
+      <% articles.each do |post| %>
+        <% if post[:post] %>
+          <div class='post'>
+            <h1><%= post[:title]%></h1>
+            <p class="lead">by <a href="#"><%= post[:author]%></a></p>
+            <hr>
+            <p><i class="icon-time"></i>Posted on <%= get_pretty_date(post[:created_at]) %> </p>
+            <hr>
+            <a href="<%= post[:link] %>" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
+            <%= post.compiled_content %>
+          </div>
+        <% end %>
+      <% end %>
+
+      <!-- <ul class="pager">
+        <li class="previous"><a href="#">&larr; Older</a></li>
+        <li class="next"><a href="#">Newer &rarr;</a></li>
+      </ul> -->
+
+    </div>
+
+    <div class="col-lg-4">
+      <div class="well">
+        <h4>Blog Search</h4>
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="icon-search"></i></button>
+          </span>
+        </div><!-- /input-group -->
+      </div><!-- /well -->
+      <div class="well">
+        <h4>Popular Blog Categories</h4>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul class="list-unstyled">
+                <li><a href="#dinosaurs">Dinosaurs</a></li>
+                <li><a href="#spaceships">Spaceships</a></li>
+                <li><a href="#fried-foods">Fried Foods</a></li>
+                <li><a href="#wild-animals">Wild Animals</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul class="list-unstyled">
+                <li><a href="#alien-abductions">Alien Abductions</a></li>
+                <li><a href="#business-casual">Business Casual</a></li>
+                <li><a href="#robots">Robots</a></li>
+                <li><a href="#fireworks">Fireworks</a></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- /well -->
+      <div class="well">
+        <h4>Side Widget Well</h4>
+        <p>Bootstrap's default well's work great for side widgets! What is a widget anyways...?</p>
+      </div><!-- /well -->
+    </div>
+  </div>
+
+</div><!-- /.container -->;T;
+I"g <div class="container">
+
+  <div class="row">
+
+    <div class="col-lg-12">
+      <h1 class="page-header">Blog Home 1 <small>Blog Homepage</small></h1>
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">Blog Home 1</li>
+      </ol>
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-lg-8">
+
+      
+        
+      
+        
+      
+        
+      
+        
+          <div class='post'>
+            <h1>My Firts Post in HMD</h1>
+            <p class="lead">by <a href="#">Felix Montes</a></p>
+            <hr>
+            <p><i class="icon-time"></i>Posted on February 12, 2013 </p>
+            <hr>
+            <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
+            <hr>
+<p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
+
+<hr>
+          </div>
+        
+      
+        
+          <div class='post'>
+            <h1>My Second Post</h1>
+            <p class="lead">by <a href="#">Write the name of the author new post</a></p>
+            <hr>
+            <p><i class="icon-time"></i>Posted on October 24, 2013 </p>
+            <hr>
+            <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
+            <hr>
+<p>This is my second post with rake!!.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
+
+<hr>
+          </div>
+        
+      
+
+      <!-- <ul class="pager">
+        <li class="previous"><a href="#">&larr; Older</a></li>
+        <li class="next"><a href="#">Newer &rarr;</a></li>
+      </ul> -->
+
+    </div>
+
+    <div class="col-lg-4">
+      <div class="well">
+        <h4>Blog Search</h4>
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="icon-search"></i></button>
+          </span>
+        </div><!-- /input-group -->
+      </div><!-- /well -->
+      <div class="well">
+        <h4>Popular Blog Categories</h4>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul class="list-unstyled">
+                <li><a href="#dinosaurs">Dinosaurs</a></li>
+                <li><a href="#spaceships">Spaceships</a></li>
+                <li><a href="#fried-foods">Fried Foods</a></li>
+                <li><a href="#wild-animals">Wild Animals</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul class="list-unstyled">
+                <li><a href="#alien-abductions">Alien Abductions</a></li>
+                <li><a href="#business-casual">Business Casual</a></li>
+                <li><a href="#robots">Robots</a></li>
+                <li><a href="#fireworks">Fireworks</a></li>
+              </ul>
+            </div>
+          </div>
+      </div><!-- /well -->
+      <div class="well">
+        <h4>Side Widget Well</h4>
+        <p>Bootstrap's default well's work great for side widgets! What is a widget anyways...?</p>
+      </div><!-- /well -->
+    </div>
+  </div>
+
+</div><!-- /.container -->;T;@–I"&/posts/2013-10-24-My-Second-Post/;T{;{	;I"Ï<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Has_many :developers - My Second Post</title>
+    <link rel="stylesheet" href="/style.css">
+    
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc 3.6.5"> 
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+          <!-- <a class="navbar-brand" href="index.html">Has_many :developers</a> -->
+          <!-- <img src="./images/logo_hmd_bw.png" style="padding:10px;"> -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <!-- <li><a href="services.html">Services</a></li> -->
+            <li><a href="/contact/">Contact</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="portfolio-1-col.html">1 Column Portfolio</a></li>
+                <li><a href="portfolio-2-col.html">2 Column Portfolio</a></li>
+                <li><a href="portfolio-3-col.html">3 Column Portfolio</a></li>
+                <li><a href="portfolio-4-col.html">4 Column Portfolio</a></li>
+                <li><a href="portfolio-item.html">Single Portfolio Item</a></li>
+              </ul>
+            </li> -->
+            <li class="dropdown">
+              <a href="/posts/">Blog </a>
+            </li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="full-width.html">Full Width Page</a></li>
+                <li><a href="sidebar.html">Sidebar Page</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="404.html">404</a></li>
+                <li><a href="pricing.html">Pricing Table</a></li>
+              </ul>
+            </li> -->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <hr>
+<p>This is my second post with rake!!.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
+
+<hr>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; 2013 has_many :developers. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/modern-business.js"></script>
+  </body>
+</html>
+;T;	I"•<hr>
+<p>This is my second post with rake!!.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
+
+<hr>;T;
+I"•<hr>
+<p>This is my second post with rake!!.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
+
+<hr>;T;@œ:versioni

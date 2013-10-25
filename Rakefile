@@ -27,3 +27,28 @@ task :new_portfolio do
     port.puts "Save the image here '/content/images/screenshots_portafolio/"
   end
 end
+
+# rake new_post TITLE=post_name
+desc "Create a new Post"
+task :new_post do
+  mkdir_p './content/posts'
+  title = ENV['TITLE']
+  filename = "./content/posts/#{Time.now.strftime('%Y-%m-%d')}-#{title}.html"
+
+  if File.exist?(filename)
+    abort('rake aborted!') if ask("#{filename} already exists. Want to overwrite?", ['y','n']) == 'n'
+  end
+
+  puts "Creating new Post: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts '---'
+    post.puts "title: \"#{title}\""
+    post.puts "kind: article"
+    post.puts "post: true"
+    post.puts "created_at: #{Time.now}"
+    post.puts "author: Write the name of the author new post"
+    post.puts "link: Write the link where you'd get the post`"
+    post.puts "---\n\n"
+    post.puts "Take the example from 'posts' folder to write the content in html format"
+  end
+end
