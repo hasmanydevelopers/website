@@ -11,14 +11,14 @@ Felix Montes!
 
 rake new_portfolio TITLE=portfolio_name
 
-This create a new file *content/portfolio/portfolio_name.html*. Take this next example and edit it with new content.
+This create a new file content/portfolio/portfolio_name.html. Take this next example and edit it with new content.
 
-===
+---
 title: "portfolio_name"
 kind: article
 portfolio: true
 url: http://portfolio_website_url.blah
-===
+---
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h2>Cherno Alpha</h2>
   <ul>
@@ -37,16 +37,16 @@ url: http://portfolio_website_url.blah
 
 rake new_portfolio TITLE=post_name
 
-This create a new file *content/post/post_name/index.html*. Take this next example and edit it with new content.
+This create a new file content/post/post_name/index.html. Take this next example and edit it with new content.
 
-===
+---
 title: "post_name"
 kind: article
 created_at: Take the timestamps where did you just run the rake task
 post: true
 author: author_name
 link: give the link where did take the post
-===
+---
 
 <hr>
 <p>Edit with the post title</p>
