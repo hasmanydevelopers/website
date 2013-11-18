@@ -1,14 +1,13 @@
-{:	data{+I"/:ET{:default{	:	lastI"Æ2<!DOCTYPE HTML>
+{:	data{+I"/:ET{:default{	:	lastI"<3<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Has_many :developers - Home</title>
+    <title>has_many :developers - Home</title>
     <link rel="stylesheet" href="/style.css">
     
-
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.6.5"> 
   </head>
@@ -180,26 +179,28 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-  <h2>Cherno Alpha</h2>
+  <h2>Pickista</h2>
   <ul>
-    <li>Bootstrap 3 Framework</li>
-    <li>Mobile Responsive Design</li>
-    <li>Predefined File Paths</li>
-    <li>Working PHP Contact Page</li>
-    <li>Minimal Custom CSS Styles</li>
-    <li>Unstyled: Add Your Own Style and Content!</li>
-    <li>Font-Awesome fonts come pre-installed!</li>
-    <li>100% <strong>Free</strong> to Use</li>
-    <li>Open Source: Use for any project, private or commercial!</li>
+    <li>SPA: Single Page Application</li>
+    <li>Spine.js 1.0.8</li>
+    <li>CoffeeScript</li>
+    <li>Ruby on Rails 3.2.11</li>    
+    <li>Twitter Boostrap 2</li>
   </ul>
-</div>                
+</div>
 <div class="col-lg-4 col-md-4 col-sm-4">
-  <h3>Project Description</h3>
-  <p>An app to monitorize alimentation habits, based on the Principles of Mindful Eating available at <a href="http://www.thecenterformindfuleating.org/principles">http://www.thecenterformindfuleating.org/principles</a>
-  The purpose of this app is to test development strategies for creating mobile first, responsive apps.</p>
+  <h3 style="color:black;" >Project Description</h3>
+  <p>
+    Pickista is a fun and simple way to ask a question. A visual poll that lets
+    you get the answers you need, when you need them, from the people you trust.
+    Using images to explain your dilemma in a nutshell, you can send your
+    question to your most trusted advisors from anywhere on the web. With
+    lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your 
+    perusal.
+  </p>
 </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                      <a href="http://cherno.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/cherno.png" style="border-radius:10px;"></a>
+                      <a href="http://pickista.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/pickista.png" style="border-radius:10px;"></a>
                     </div>
                   </div><!-- /.row -->
 
@@ -219,24 +220,26 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                      <a href="http://main.intelriver.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/iriver.png" style="border-radius:10px;"></a>
+                      <a href="http://cherno.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/cherno.png" style="border-radius:10px;"></a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-  <h2 style="color:black;" >iRiver</h2>
+  <h2>Cherno Alpha</h2>
   <ul>
-    <li>Bootstrap 2 Framework</li>
+    <li>Bootstrap 3 Framework</li>
     <li>Mobile Responsive Design</li>
-    <li>JavaScript</li>
-    <li>Ruby</li>
-    <li>Ruby on Rails</li>
-    <li>JQuery</li>
-    <li>HTML5</li>
-    <li>Highchart.js</li>
+    <li>Predefined File Paths</li>
+    <li>Working PHP Contact Page</li>
+    <li>Minimal Custom CSS Styles</li>
+    <li>Unstyled: Add Your Own Style and Content!</li>
+    <li>Font-Awesome fonts come pre-installed!</li>
+    <li>100% <strong>Free</strong> to Use</li>
+    <li>Open Source: Use for any project, private or commercial!</li>
   </ul>
-</div>
+</div>                
 <div class="col-lg-4 col-md-4 col-sm-4">
-  <h3 style="color:black;" >Project Description</h3>
-  <p>iRiver is a...</p>
+  <h3>Project Description</h3>
+  <p>An app to monitorize alimentation habits, based on the Principles of Mindful Eating available at <a href="http://www.thecenterformindfuleating.org/principles">http://www.thecenterformindfuleating.org/principles</a>
+  The purpose of this app is to test development strategies for creating mobile first, responsive apps.</p>
 </div>
                   </div><!-- /.row -->
 
@@ -256,26 +259,28 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-  <h2 style="color:black;" >Pickista</h2>
+  <h2 style="color:black;" >iRiver</h2>
   <ul>
     <li>Bootstrap 2 Framework</li>
     <li>Mobile Responsive Design</li>
-    <li>CoffeeScript</li>
     <li>JavaScript</li>
     <li>Ruby</li>
     <li>Ruby on Rails</li>
-    <li>Behavior Driven Development</li>
-    <li>Teste Driven Development</li>
     <li>JQuery</li>
-    <li>Spine.js</li>
+    <li>HTML5</li>
+    <li>Highchart.js</li>
   </ul>
 </div>
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h3 style="color:black;" >Project Description</h3>
-  <p>Pickista is a fun and simple way to ask a question. A visual poll that lets you get the answers you need, when you need them, from the people you trust. Using images to explain your dilemma in a nutshell, you can send your question to your most trusted advisors from anywhere on the web. With lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your perusal. The result? Goodbye, pickle. Hello, next steps...</p>
+  <p>Deploy customer and employee surveys, receive feedback, and analyze
+    results. All in 60 seconds or less! Delight your customers and engage
+    employees with real-time answers. From the palm of your hand you can
+    deploy surveys, view snack-sized analytics, and respond to customer or
+    employee concerns immediately!</p>
 </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                      <a href="http://pickista.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/pickista.png" style="border-radius:10px;"></a>
+                      <a href="http://www.intelriver.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/iriver.png" style="border-radius:10px;"></a>
                     </div>
                   </div><!-- /.row -->
 
@@ -487,7 +492,7 @@
       </div><!-- /.row -->
 
     </div><!-- /.container -->
-  </body>;T:preI"~$<body>
+  </body>;T:preI"%<body>
     
     <div id="myCarousel" class="carousel slide">
       <!-- Indicators -->
@@ -605,26 +610,28 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-  <h2>Cherno Alpha</h2>
+  <h2>Pickista</h2>
   <ul>
-    <li>Bootstrap 3 Framework</li>
-    <li>Mobile Responsive Design</li>
-    <li>Predefined File Paths</li>
-    <li>Working PHP Contact Page</li>
-    <li>Minimal Custom CSS Styles</li>
-    <li>Unstyled: Add Your Own Style and Content!</li>
-    <li>Font-Awesome fonts come pre-installed!</li>
-    <li>100% <strong>Free</strong> to Use</li>
-    <li>Open Source: Use for any project, private or commercial!</li>
+    <li>SPA: Single Page Application</li>
+    <li>Spine.js 1.0.8</li>
+    <li>CoffeeScript</li>
+    <li>Ruby on Rails 3.2.11</li>    
+    <li>Twitter Boostrap 2</li>
   </ul>
-</div>                
+</div>
 <div class="col-lg-4 col-md-4 col-sm-4">
-  <h3>Project Description</h3>
-  <p>An app to monitorize alimentation habits, based on the Principles of Mindful Eating available at <a href="http://www.thecenterformindfuleating.org/principles">http://www.thecenterformindfuleating.org/principles</a>
-  The purpose of this app is to test development strategies for creating mobile first, responsive apps.</p>
+  <h3 style="color:black;" >Project Description</h3>
+  <p>
+    Pickista is a fun and simple way to ask a question. A visual poll that lets
+    you get the answers you need, when you need them, from the people you trust.
+    Using images to explain your dilemma in a nutshell, you can send your
+    question to your most trusted advisors from anywhere on the web. With
+    lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your 
+    perusal.
+  </p>
 </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                      <a href="http://cherno.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/cherno.png" style="border-radius:10px;"></a>
+                      <a href="http://pickista.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/pickista.png" style="border-radius:10px;"></a>
                     </div>
                   </div><!-- /.row -->
 
@@ -644,24 +651,26 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                      <a href="http://main.intelriver.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/iriver.png" style="border-radius:10px;"></a>
+                      <a href="http://cherno.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/cherno.png" style="border-radius:10px;"></a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-  <h2 style="color:black;" >iRiver</h2>
+  <h2>Cherno Alpha</h2>
   <ul>
-    <li>Bootstrap 2 Framework</li>
+    <li>Bootstrap 3 Framework</li>
     <li>Mobile Responsive Design</li>
-    <li>JavaScript</li>
-    <li>Ruby</li>
-    <li>Ruby on Rails</li>
-    <li>JQuery</li>
-    <li>HTML5</li>
-    <li>Highchart.js</li>
+    <li>Predefined File Paths</li>
+    <li>Working PHP Contact Page</li>
+    <li>Minimal Custom CSS Styles</li>
+    <li>Unstyled: Add Your Own Style and Content!</li>
+    <li>Font-Awesome fonts come pre-installed!</li>
+    <li>100% <strong>Free</strong> to Use</li>
+    <li>Open Source: Use for any project, private or commercial!</li>
   </ul>
-</div>
+</div>                
 <div class="col-lg-4 col-md-4 col-sm-4">
-  <h3 style="color:black;" >Project Description</h3>
-  <p>iRiver is a...</p>
+  <h3>Project Description</h3>
+  <p>An app to monitorize alimentation habits, based on the Principles of Mindful Eating available at <a href="http://www.thecenterformindfuleating.org/principles">http://www.thecenterformindfuleating.org/principles</a>
+  The purpose of this app is to test development strategies for creating mobile first, responsive apps.</p>
 </div>
                   </div><!-- /.row -->
 
@@ -681,26 +690,28 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-  <h2 style="color:black;" >Pickista</h2>
+  <h2 style="color:black;" >iRiver</h2>
   <ul>
     <li>Bootstrap 2 Framework</li>
     <li>Mobile Responsive Design</li>
-    <li>CoffeeScript</li>
     <li>JavaScript</li>
     <li>Ruby</li>
     <li>Ruby on Rails</li>
-    <li>Behavior Driven Development</li>
-    <li>Teste Driven Development</li>
     <li>JQuery</li>
-    <li>Spine.js</li>
+    <li>HTML5</li>
+    <li>Highchart.js</li>
   </ul>
 </div>
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h3 style="color:black;" >Project Description</h3>
-  <p>Pickista is a fun and simple way to ask a question. A visual poll that lets you get the answers you need, when you need them, from the people you trust. Using images to explain your dilemma in a nutshell, you can send your question to your most trusted advisors from anywhere on the web. With lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your perusal. The result? Goodbye, pickle. Hello, next steps...</p>
+  <p>Deploy customer and employee surveys, receive feedback, and analyze
+    results. All in 60 seconds or less! Delight your customers and engage
+    employees with real-time answers. From the palm of your hand you can
+    deploy surveys, view snack-sized analytics, and respond to customer or
+    employee concerns immediately!</p>
 </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                      <a href="http://pickista.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/pickista.png" style="border-radius:10px;"></a>
+                      <a href="http://www.intelriver.com" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/iriver.png" style="border-radius:10px;"></a>
                     </div>
                   </div><!-- /.row -->
 
@@ -8258,17 +8269,16 @@ footer {
 
 }
 ;T;	@;
-@I"/about/;T{;{	;I"–3<!DOCTYPE HTML>
+@I"/about/;T{;{	;I"ô5<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Has_many :developers - About</title>
+    <title>has_many :developers - About</title>
     <link rel="stylesheet" href="/style.css">
     
-
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.6.5"> 
   </head>
@@ -8327,7 +8337,7 @@ footer {
       <div class="row">
 
         <div class="col-lg-12">
-          <h1 class="page-header">About <small>It's Nice to Meet You!</small></h1>
+          <h1 class="page-header">About us&nbsp;&nbsp;<small>It's Nice to Meet You!</small></h1>
           <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
             <li class="active">About</li>
@@ -8342,9 +8352,29 @@ footer {
           <img class="img-responsive" src="/images/screenshots_portafolio/officeoutside.png">
         </div>
         <div class="col-md-6">
-          <h2>Welcome to 'Has_many :developers'</h2>
-          <p>This is a great place to introduce your company or project and describe what you do. This about page features general company information, employee bios, and other helpful elements.</p>
-          <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+          <h2>Welcome to has_many :developers</h2>
+          <p>
+            After near 10 years of corporate Java development we jumped into
+            Ruby On Rails in 2006, 
+            <a href="http://rubycorner.com/">http://rubycorner.com/</a> was our
+            first Ruby On Rails application, and it is still listed on 
+            <a href="https://www.ruby-lang.org/en/community/weblogs/">ruby-lang</a>
+            in the Community section. And after 7 years of experience with RoR
+            we still love it.
+          </p>
+          <p>
+            Rails is the foundation on which we have been building SPAs (Single 
+            Page Applications) in the last couple years, on top of it we have
+            tried: Spine.js, Backbone.js and Angular.js whcis has been a really
+            exciting experience.
+          </p>
+          <p>
+            Our team has changed over the years, good friends have left us and
+            now are working at companies like Groupon and Zillow, but something
+            has remained: our commitment grow each of our teammates as full 
+            stack web developers fond on the latest trends on web development
+            together with the best Agile practices.
+          </p>
         </div>
 
       </div>
@@ -8359,7 +8389,7 @@ footer {
 
         <div class="col-sm-4">
           <img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Driusz Waszkiewicz <small>President</small></h3>
+            <h3>Dariusz Waszkiewicz <small>President</small></h3>
             <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
             <ul class="list-unstyled list-inline list-social-icons">
               <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="icon-facebook-sign icon-2x"></i></a></li>
@@ -8486,12 +8516,12 @@ footer {
     <script src="/js/modern-business.js"></script>
   </body>
 </html>
-;T;	I"ü%<div class="container">
+;T;	I"i'<div class="container">
 
       <div class="row">
 
         <div class="col-lg-12">
-          <h1 class="page-header">About <small>It's Nice to Meet You!</small></h1>
+          <h1 class="page-header">About us&nbsp;&nbsp;<small>It's Nice to Meet You!</small></h1>
           <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
             <li class="active">About</li>
@@ -8506,9 +8536,29 @@ footer {
           <img class="img-responsive" src="/images/screenshots_portafolio/officeoutside.png">
         </div>
         <div class="col-md-6">
-          <h2>Welcome to 'Has_many :developers'</h2>
-          <p>This is a great place to introduce your company or project and describe what you do. This about page features general company information, employee bios, and other helpful elements.</p>
-          <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+          <h2>Welcome to has_many :developers</h2>
+          <p>
+            After near 10 years of corporate Java development we jumped into
+            Ruby On Rails in 2006, 
+            <a href="http://rubycorner.com/">http://rubycorner.com/</a> was our
+            first Ruby On Rails application, and it is still listed on 
+            <a href="https://www.ruby-lang.org/en/community/weblogs/">ruby-lang</a>
+            in the Community section. And after 7 years of experience with RoR
+            we still love it.
+          </p>
+          <p>
+            Rails is the foundation on which we have been building SPAs (Single 
+            Page Applications) in the last couple years, on top of it we have
+            tried: Spine.js, Backbone.js and Angular.js whcis has been a really
+            exciting experience.
+          </p>
+          <p>
+            Our team has changed over the years, good friends have left us and
+            now are working at companies like Groupon and Zillow, but something
+            has remained: our commitment grow each of our teammates as full 
+            stack web developers fond on the latest trends on web development
+            together with the best Agile practices.
+          </p>
         </div>
 
       </div>
@@ -8523,7 +8573,7 @@ footer {
 
         <div class="col-sm-4">
           <img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Driusz Waszkiewicz <small>President</small></h3>
+            <h3>Dariusz Waszkiewicz <small>President</small></h3>
             <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
             <ul class="list-unstyled list-inline list-social-icons">
               <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="icon-facebook-sign icon-2x"></i></a></li>
@@ -8631,12 +8681,12 @@ footer {
 
     </div><!-- /.container -->
   </body>;T;
-I"ü%<div class="container">
+I"i'<div class="container">
 
       <div class="row">
 
         <div class="col-lg-12">
-          <h1 class="page-header">About <small>It's Nice to Meet You!</small></h1>
+          <h1 class="page-header">About us&nbsp;&nbsp;<small>It's Nice to Meet You!</small></h1>
           <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
             <li class="active">About</li>
@@ -8651,9 +8701,29 @@ I"ü%<div class="container">
           <img class="img-responsive" src="/images/screenshots_portafolio/officeoutside.png">
         </div>
         <div class="col-md-6">
-          <h2>Welcome to 'Has_many :developers'</h2>
-          <p>This is a great place to introduce your company or project and describe what you do. This about page features general company information, employee bios, and other helpful elements.</p>
-          <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+          <h2>Welcome to has_many :developers</h2>
+          <p>
+            After near 10 years of corporate Java development we jumped into
+            Ruby On Rails in 2006, 
+            <a href="http://rubycorner.com/">http://rubycorner.com/</a> was our
+            first Ruby On Rails application, and it is still listed on 
+            <a href="https://www.ruby-lang.org/en/community/weblogs/">ruby-lang</a>
+            in the Community section. And after 7 years of experience with RoR
+            we still love it.
+          </p>
+          <p>
+            Rails is the foundation on which we have been building SPAs (Single 
+            Page Applications) in the last couple years, on top of it we have
+            tried: Spine.js, Backbone.js and Angular.js whcis has been a really
+            exciting experience.
+          </p>
+          <p>
+            Our team has changed over the years, good friends have left us and
+            now are working at companies like Groupon and Zillow, but something
+            has remained: our commitment grow each of our teammates as full 
+            stack web developers fond on the latest trends on web development
+            together with the best Agile practices.
+          </p>
         </div>
 
       </div>
@@ -8668,7 +8738,7 @@ I"ü%<div class="container">
 
         <div class="col-sm-4">
           <img class="img-responsive" src="http://placehold.it/750x450">
-            <h3>Driusz Waszkiewicz <small>President</small></h3>
+            <h3>Dariusz Waszkiewicz <small>President</small></h3>
             <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
             <ul class="list-unstyled list-inline list-social-icons">
               <li class="tooltip-social facebook-link"><a href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="icon-facebook-sign icon-2x"></i></a></li>
@@ -10789,17 +10859,16 @@ $('.carousel').carousel({
 $('.tooltip-social').tooltip({
   selector: "a[data-toggle=tooltip]"
 });T;	@U;
-@UI"0/images/screenshots_portafolio/logo_hmd_bw/;T{;{ I"!/about/images/officeoutside/;T{;{ I"/contact/;T{;{	;I"1 <!DOCTYPE HTML>
+@UI"0/images/screenshots_portafolio/logo_hmd_bw/;T{;{ I"!/about/images/officeoutside/;T{;{ I"/contact/;T{;{	;I"0 <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Has_many :developers - Contact</title>
+    <title>has_many :developers - Contact</title>
     <link rel="stylesheet" href="/style.css">
     
-
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.6.5"> 
   </head>
@@ -10909,7 +10978,7 @@ $('.tooltip-social').tooltip({
         </div>
 
         <div class="col-sm-4">
-          <h3>Has_many :developers</h3>
+          <h3>has_many :developers</h3>
           <h4>We Build web applications</h4>
           <p>
             Universidad Metropolitana, <br>
@@ -11008,7 +11077,7 @@ $('.tooltip-social').tooltip({
         </div>
 
         <div class="col-sm-4">
-          <h3>Has_many :developers</h3>
+          <h3>has_many :developers</h3>
           <h4>We Build web applications</h4>
           <p>
             Universidad Metropolitana, <br>
@@ -11088,7 +11157,7 @@ I"˛<!-- Page Content -->
         </div>
 
         <div class="col-sm-4">
-          <h3>Has_many :developers</h3>
+          <h3>has_many :developers</h3>
           <h4>We Build web applications</h4>
           <p>
             Universidad Metropolitana, <br>
@@ -11740,17 +11809,16 @@ I"S<div class="container">
     </div>
   </footer>
 
-</div><!-- /.container -->;T;@kI"/portfolio/pickista/;T{;{	;I"÷<!DOCTYPE HTML>
+</div><!-- /.container -->;T;@kI"/portfolio/pickista/;T{;{	;I"/<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Has_many :developers - pickista</title>
+    <title>has_many :developers - pickista</title>
     <link rel="stylesheet" href="/style.css">
     
-
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.6.5"> 
   </head>
@@ -11805,23 +11873,25 @@ I"S<div class="container">
     </nav>
 
     <div class="col-lg-4 col-md-4 col-sm-4">
-  <h2 style="color:black;" >Pickista</h2>
+  <h2>Pickista</h2>
   <ul>
-    <li>Bootstrap 2 Framework</li>
-    <li>Mobile Responsive Design</li>
+    <li>SPA: Single Page Application</li>
+    <li>Spine.js 1.0.8</li>
     <li>CoffeeScript</li>
-    <li>JavaScript</li>
-    <li>Ruby</li>
-    <li>Ruby on Rails</li>
-    <li>Behavior Driven Development</li>
-    <li>Teste Driven Development</li>
-    <li>JQuery</li>
-    <li>Spine.js</li>
+    <li>Ruby on Rails 3.2.11</li>    
+    <li>Twitter Boostrap 2</li>
   </ul>
 </div>
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h3 style="color:black;" >Project Description</h3>
-  <p>Pickista is a fun and simple way to ask a question. A visual poll that lets you get the answers you need, when you need them, from the people you trust. Using images to explain your dilemma in a nutshell, you can send your question to your most trusted advisors from anywhere on the web. With lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your perusal. The result? Goodbye, pickle. Hello, next steps...</p>
+  <p>
+    Pickista is a fun and simple way to ask a question. A visual poll that lets
+    you get the answers you need, when you need them, from the people you trust.
+    Using images to explain your dilemma in a nutshell, you can send your
+    question to your most trusted advisors from anywhere on the web. With
+    lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your 
+    perusal.
+  </p>
 </div>
 
     <div class="container">
@@ -11842,43 +11912,47 @@ I"S<div class="container">
     <script src="/js/modern-business.js"></script>
   </body>
 </html>
-;T;	I"¢<div class="col-lg-4 col-md-4 col-sm-4">
-  <h2 style="color:black;" >Pickista</h2>
+;T;	I"¸<div class="col-lg-4 col-md-4 col-sm-4">
+  <h2>Pickista</h2>
   <ul>
-    <li>Bootstrap 2 Framework</li>
-    <li>Mobile Responsive Design</li>
+    <li>SPA: Single Page Application</li>
+    <li>Spine.js 1.0.8</li>
     <li>CoffeeScript</li>
-    <li>JavaScript</li>
-    <li>Ruby</li>
-    <li>Ruby on Rails</li>
-    <li>Behavior Driven Development</li>
-    <li>Teste Driven Development</li>
-    <li>JQuery</li>
-    <li>Spine.js</li>
+    <li>Ruby on Rails 3.2.11</li>    
+    <li>Twitter Boostrap 2</li>
   </ul>
 </div>
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h3 style="color:black;" >Project Description</h3>
-  <p>Pickista is a fun and simple way to ask a question. A visual poll that lets you get the answers you need, when you need them, from the people you trust. Using images to explain your dilemma in a nutshell, you can send your question to your most trusted advisors from anywhere on the web. With lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your perusal. The result? Goodbye, pickle. Hello, next steps...</p>
+  <p>
+    Pickista is a fun and simple way to ask a question. A visual poll that lets
+    you get the answers you need, when you need them, from the people you trust.
+    Using images to explain your dilemma in a nutshell, you can send your
+    question to your most trusted advisors from anywhere on the web. With
+    lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your 
+    perusal.
+  </p>
 </div>;T;
-I"¢<div class="col-lg-4 col-md-4 col-sm-4">
-  <h2 style="color:black;" >Pickista</h2>
+I"¸<div class="col-lg-4 col-md-4 col-sm-4">
+  <h2>Pickista</h2>
   <ul>
-    <li>Bootstrap 2 Framework</li>
-    <li>Mobile Responsive Design</li>
+    <li>SPA: Single Page Application</li>
+    <li>Spine.js 1.0.8</li>
     <li>CoffeeScript</li>
-    <li>JavaScript</li>
-    <li>Ruby</li>
-    <li>Ruby on Rails</li>
-    <li>Behavior Driven Development</li>
-    <li>Teste Driven Development</li>
-    <li>JQuery</li>
-    <li>Spine.js</li>
+    <li>Ruby on Rails 3.2.11</li>    
+    <li>Twitter Boostrap 2</li>
   </ul>
 </div>
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h3 style="color:black;" >Project Description</h3>
-  <p>Pickista is a fun and simple way to ask a question. A visual poll that lets you get the answers you need, when you need them, from the people you trust. Using images to explain your dilemma in a nutshell, you can send your question to your most trusted advisors from anywhere on the web. With lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your perusal. The result? Goodbye, pickle. Hello, next steps...</p>
+  <p>
+    Pickista is a fun and simple way to ask a question. A visual poll that lets
+    you get the answers you need, when you need them, from the people you trust.
+    Using images to explain your dilemma in a nutshell, you can send your
+    question to your most trusted advisors from anywhere on the web. With
+    lightning-quick speed, we‚Äôll tally their votes (or ‚Äúpicks‚Äù) for your 
+    perusal.
+  </p>
 </div>;T;@qI"/portfolio/new-portfolio/;T{;{	;I"‚<!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -12026,17 +12100,16 @@ I"ˇ<h2>Cherno Alpha</h2>
           <li>Font-Awesome fonts come pre-installed!</li>
           <li>100% <strong>Free</strong> to Use</li>
           <li>Open Source: Use for any project, private or commercial!</li>
-        </ul>;T;@}I"/portfolio/cherno/;T{;{	;I"»<!DOCTYPE HTML>
+        </ul>;T;@}I"/portfolio/cherno/;T{;{	;I"«<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Has_many :developers - cherno</title>
+    <title>has_many :developers - cherno</title>
     <link rel="stylesheet" href="/style.css">
     
-
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.6.5"> 
   </head>
@@ -12172,7 +12245,7 @@ I"ñ<div class="col-lg-4 col-md-4 col-sm-4">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Has_many :developers - My Firts Post in HMD</title>
+    <title>has_many :developers - My Firts Post in HMD</title>
     <link rel="stylesheet" href="/style.css">
     
 
@@ -12262,17 +12335,16 @@ I"H<hr>
 <p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
 <a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
 
-<hr>;T;@ÑI"/portfolio/iriver/;T{;{	;I"‰<!DOCTYPE HTML>
+<hr>;T;@ÑI"/portfolio/iriver/;T{;{	;I"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Has_many :developers - iriver</title>
+    <title>has_many :developers - iriver</title>
     <link rel="stylesheet" href="/style.css">
     
-
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.6.5"> 
   </head>
@@ -12341,7 +12413,11 @@ I"H<hr>
 </div>
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h3 style="color:black;" >Project Description</h3>
-  <p>iRiver is a...</p>
+  <p>Deploy customer and employee surveys, receive feedback, and analyze
+    results. All in 60 seconds or less! Delight your customers and engage
+    employees with real-time answers. From the palm of your hand you can
+    deploy surveys, view snack-sized analytics, and respond to customer or
+    employee concerns immediately!</p>
 </div>
 
     <div class="container">
@@ -12362,7 +12438,7 @@ I"H<hr>
     <script src="/js/modern-business.js"></script>
   </body>
 </html>
-;T;	I"≤<div class="col-lg-4 col-md-4 col-sm-4">
+;T;	I"Ë<div class="col-lg-4 col-md-4 col-sm-4">
   <h2 style="color:black;" >iRiver</h2>
   <ul>
     <li>Bootstrap 2 Framework</li>
@@ -12377,9 +12453,13 @@ I"H<hr>
 </div>
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h3 style="color:black;" >Project Description</h3>
-  <p>iRiver is a...</p>
+  <p>Deploy customer and employee surveys, receive feedback, and analyze
+    results. All in 60 seconds or less! Delight your customers and engage
+    employees with real-time answers. From the palm of your hand you can
+    deploy surveys, view snack-sized analytics, and respond to customer or
+    employee concerns immediately!</p>
 </div>;T;
-I"≤<div class="col-lg-4 col-md-4 col-sm-4">
+I"Ë<div class="col-lg-4 col-md-4 col-sm-4">
   <h2 style="color:black;" >iRiver</h2>
   <ul>
     <li>Bootstrap 2 Framework</li>
@@ -12394,7 +12474,11 @@ I"≤<div class="col-lg-4 col-md-4 col-sm-4">
 </div>
 <div class="col-lg-4 col-md-4 col-sm-4">
   <h3 style="color:black;" >Project Description</h3>
-  <p>iRiver is a...</p>
+  <p>Deploy customer and employee surveys, receive feedback, and analyze
+    results. All in 60 seconds or less! Delight your customers and engage
+    employees with real-time answers. From the palm of your hand you can
+    deploy surveys, view snack-sized analytics, and respond to customer or
+    employee concerns immediately!</p>
 </div>;T;@äI"+/images/screenshots_portafolio/iriver/;T{;{ I",/images/screenshots_portafolio/iriver3/;T{;{ I"/posts/;T{;{	;I"ì<!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -12402,7 +12486,7 @@ I"≤<div class="col-lg-4 col-md-4 col-sm-4">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Has_many :developers - </title>
+    <title>has_many :developers - </title>
     <link rel="stylesheet" href="/style.css">
     
 
@@ -12486,22 +12570,6 @@ I"≤<div class="col-lg-4 col-md-4 col-sm-4">
       
         
           <div class='post'>
-            <h1>My Firts Post in HMD</h1>
-            <p class="lead">by <a href="#">Felix Montes</a></p>
-            <hr>
-            <p><i class="icon-time"></i>Posted on February 12, 2013 </p>
-            <hr>
-            <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
-            <hr>
-<p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
-<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
-
-<hr>
-          </div>
-        
-      
-        
-          <div class='post'>
             <h1>My Second Post</h1>
             <p class="lead">by <a href="#">Write the name of the author new post</a></p>
             <hr>
@@ -12510,6 +12578,22 @@ I"≤<div class="col-lg-4 col-md-4 col-sm-4">
             <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
             <hr>
 <p>This is my second post with rake!!.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
+
+<hr>
+          </div>
+        
+      
+        
+          <div class='post'>
+            <h1>My Firts Post in HMD</h1>
+            <p class="lead">by <a href="#">Felix Montes</a></p>
+            <hr>
+            <p><i class="icon-time"></i>Posted on February 12, 2013 </p>
+            <hr>
+            <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
+            <hr>
+<p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
 <a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
 
 <hr>
@@ -12688,22 +12772,6 @@ I"g <div class="container">
       
         
           <div class='post'>
-            <h1>My Firts Post in HMD</h1>
-            <p class="lead">by <a href="#">Felix Montes</a></p>
-            <hr>
-            <p><i class="icon-time"></i>Posted on February 12, 2013 </p>
-            <hr>
-            <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
-            <hr>
-<p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
-<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
-
-<hr>
-          </div>
-        
-      
-        
-          <div class='post'>
             <h1>My Second Post</h1>
             <p class="lead">by <a href="#">Write the name of the author new post</a></p>
             <hr>
@@ -12712,6 +12780,22 @@ I"g <div class="container">
             <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
             <hr>
 <p>This is my second post with rake!!.</p>
+<a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
+
+<hr>
+          </div>
+        
+      
+        
+          <div class='post'>
+            <h1>My Firts Post in HMD</h1>
+            <p class="lead">by <a href="#">Felix Montes</a></p>
+            <hr>
+            <p><i class="icon-time"></i>Posted on February 12, 2013 </p>
+            <hr>
+            <a href="http://www.google.com" target="_blank"><img src="http://placehold.it/900x300" class="img-responsive"></a>
+            <hr>
+<p>This is a very basic starter template for a blog homepage. It makes use of Font Awesome icons that are built into the 'Modern Business' template, and it makes use of the Bootstrap 3 pager at the bottom of the page.</p>
 <a class="btn btn-primary" href="blog-post.html">Read More <i class="icon-angle-right"></i></a>
 
 <hr>
@@ -12771,7 +12855,7 @@ I"g <div class="container">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Has_many :developers - My Second Post</title>
+    <title>has_many :developers - My Second Post</title>
     <link rel="stylesheet" href="/style.css">
     
 
