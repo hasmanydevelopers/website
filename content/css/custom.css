@@ -1,7 +1,14 @@
 /* Home */
 
+#logotype {
+    padding-top: 20px;
+    display:block;
+    margin:auto;
+}
+
 #projects-msg {
     font-weight:bold;
+    color: #222222;
 }
 
 .project-description-label {
@@ -26,7 +33,11 @@
     text-align:justify;
 }
 
-.technologies, .project-description-value {
+#introduction-title {
+    margin-bottom: 20px;
+}
+
+#introduction, .technologies, .project-description-value {
     font-size: 16px;
 }
 
