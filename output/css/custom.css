@@ -1,0 +1,35 @@
+/* Home */
+
+#projects-msg {
+    font-weight:bold;
+}
+
+.project-description-label {
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+
+.project-name {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.odd .project-name, .odd .project-description-label  {
+    color: #000000;
+}
+
+.technologies {
+    padding-left: 15px;
+}
+
+.project-description-value {
+    text-align:justify;
+}
+
+.technologies, .project-description-value {
+    font-size: 16px;
+}
+
+.a-in-p {
+    display: block;
+}

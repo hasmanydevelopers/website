@@ -15,8 +15,8 @@
 
 # ********************** COMPILE!!
 
-compile '/stylesheet/' do
-  # don’t filter or layout
+compile '/css/*' do
+  # don't filter or layout
 end
 
 compile '/js/*/' do
@@ -59,8 +59,8 @@ route '/js/*/' do
   item.identifier.chop + ".js"
 end
 
-route '/stylesheet/' do
-  '/style.css'
+route '/css/*' do
+  item.identifier.chop + '.' + item[:extension]
 end
 
 route '/images/*/' do

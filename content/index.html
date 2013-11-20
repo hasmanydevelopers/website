@@ -3,7 +3,7 @@ title: Home
 ---
 
 <body>
-    
+
     <div id="myCarousel" class="carousel slide">
       <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -69,8 +69,7 @@ title: Home
 
         <div class="row">
           <div class="col-sm-12">
-            <h2>These are some of our projects we have developed so far.</h2>
-            <hr>
+            <h2 id="projects-msg">These are some of our projects we have developed so far.</h2>
           </div>
         </div><!-- /.row -->
 
@@ -119,9 +118,11 @@ title: Home
               <div class="section">
                 <div class="container">
                   <div class="row">
-                    <%= post.compiled_content %>
+                    <div class="col-lg-8 col-md-8 col-sm-8">
+                      <%= post.compiled_content %>
+                    </div>
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                      <a href="<%= post[:url] %>" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/<%= post[:title] %>.png" style="border-radius:10px;"></a>
+                      <a href="<%= post[:url] %>" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/<%= post[:title] %>.png"></img></a>
                     </div>
                   </div><!-- /.row -->
 
@@ -137,9 +138,11 @@ title: Home
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                      <a href="<%= post[:url] %>" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/<%= post[:title] %>.png" style="border-radius:10px;"></a>
+                      <a href="<%= post[:url] %>" target="_blank"><img class="img-responsive" src="/images/screenshots_portafolio/<%= post[:title] %>.png"></img></a>
                     </div>
-                    <%= post.compiled_content %>
+                    <div class="odd col-lg-8 col-md-8 col-sm-8">
+                      <%= post.compiled_content %>
+                    </div>
                   </div><!-- /.row -->
 
                 </div><!-- /.container -->
