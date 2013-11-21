@@ -110,7 +110,7 @@ title: Home
 
     </div> -->
 
-    <% articles.each_with_index do |post, index| %>
+    <% sort_items_by_title("article", ["iriver","pickista","cherno"]).each_with_index do |post, index| %>
       <% if post[:portfolio] %>
         <% if index.even? %>
           <div class='post'>

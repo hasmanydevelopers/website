@@ -1,8 +1,8 @@
-Crashlog created at 2013-11-20 15:19:05 -0430
+Crashlog created at 2013-11-21 17:26:56 -0430
 
 ===== MESSAGE:
 
-NoMethodError: undefined method `nav_link_to_unless_current' for #<Nanoc::Context:0x007f6f84c78d28>
+NameError: undefined local variable or method `items_of_kind' for #<Nanoc::Context:0x007fcb28885658>
 
 ===== COMPILATION STACK:
 
@@ -10,52 +10,53 @@ NoMethodError: undefined method `nav_link_to_unless_current' for #<Nanoc::Contex
 
 ===== STACK TRACE:
 
-  0. layout /default/:32:in `get_binding'
-  1. /home/luciamariana/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/erb.rb:849:in `eval'
-  2. /home/luciamariana/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/erb.rb:849:in `result'
-  3. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/filters/erb.rb:34:in `run'
-  4. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
-  5. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/result_data/item_rep.rb:409:in `layout'
-  6. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/item_rep_proxy.rb:69:in `layout'
-  7. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/rule_context.rb:68:in `layout'
-  8. ./Rules:47:in `block in load'
-  9. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
-  10. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
-  11. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
-  12. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
-  13. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
-  14. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
-  15. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  16. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/source_data/site.rb:58:in `compile'
-  17. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:65:in `block in recompile'
-  18. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:63:in `chdir'
-  19. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:63:in `recompile'
-  20. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:28:in `run_on_changes'
-  21. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:67:in `block in run_supervised_task'
-  22. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:65:in `catch'
-  23. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:65:in `run_supervised_task'
-  24. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:109:in `block in _run_first_task_found'
-  25. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:107:in `each'
-  26. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:107:in `_run_first_task_found'
-  27. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:47:in `block in run_on_changes'
-  28. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:140:in `block (3 levels) in _scoped_plugins'
-  29. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:138:in `each'
-  30. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:138:in `block (2 levels) in _scoped_plugins'
-  31. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:137:in `catch'
-  32. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:137:in `block in _scoped_plugins'
-  33. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:135:in `each'
-  34. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:135:in `_scoped_plugins'
-  35. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:40:in `run_on_changes'
-  36. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/setuper.rb:189:in `block (2 levels) in _setup_listener'
-  37. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/commander.rb:108:in `block in within_preserved_state'
-  38. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/commander.rb:105:in `synchronize'
-  39. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/commander.rb:105:in `within_preserved_state'
-  40. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/setuper.rb:188:in `block in _setup_listener'
-  41. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/listen-2.2.0/lib/listen/listener.rb:136:in `call'
-  42. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/listen-2.2.0/lib/listen/listener.rb:136:in `block in _wait_for_changes'
-  43. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/listen-2.2.0/lib/listen/listener.rb:131:in `loop'
-  44. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/listen-2.2.0/lib/listen/listener.rb:131:in `_wait_for_changes'
-  ... 47 more lines omitted. See full crash log for details.
+  0. lib/custom.rb:17:in `sort_items_by_title'
+  1. item / (rep default):109:in `get_binding'
+  2. /home/luciamariana/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/erb.rb:849:in `eval'
+  3. /home/luciamariana/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/erb.rb:849:in `result'
+  4. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/filters/erb.rb:34:in `run'
+  5. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
+  6. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/result_data/item_rep.rb:344:in `filter'
+  7. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
+  8. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/rule_context.rb:55:in `filter'
+  9. ./Rules:31:in `block in load'
+  10. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
+  11. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
+  12. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
+  13. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
+  14. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
+  15. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
+  16. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  17. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/nanoc-3.6.6/lib/nanoc/base/source_data/site.rb:58:in `compile'
+  18. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:65:in `block in recompile'
+  19. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:63:in `chdir'
+  20. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:63:in `recompile'
+  21. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:28:in `run_on_changes'
+  22. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:67:in `block in run_supervised_task'
+  23. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:65:in `catch'
+  24. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:65:in `run_supervised_task'
+  25. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:109:in `block in _run_first_task_found'
+  26. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:107:in `each'
+  27. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:107:in `_run_first_task_found'
+  28. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:47:in `block in run_on_changes'
+  29. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:140:in `block (3 levels) in _scoped_plugins'
+  30. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:138:in `each'
+  31. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:138:in `block (2 levels) in _scoped_plugins'
+  32. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:137:in `catch'
+  33. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:137:in `block in _scoped_plugins'
+  34. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:135:in `each'
+  35. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:135:in `_scoped_plugins'
+  36. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/runner.rb:40:in `run_on_changes'
+  37. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/setuper.rb:189:in `block (2 levels) in _setup_listener'
+  38. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/commander.rb:108:in `block in within_preserved_state'
+  39. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/commander.rb:105:in `synchronize'
+  40. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/commander.rb:105:in `within_preserved_state'
+  41. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/guard-2.2.4/lib/guard/setuper.rb:188:in `block in _setup_listener'
+  42. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/listen-2.2.0/lib/listen/listener.rb:136:in `call'
+  43. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/listen-2.2.0/lib/listen/listener.rb:136:in `block in _wait_for_changes'
+  44. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/listen-2.2.0/lib/listen/listener.rb:131:in `loop'
+  45. /home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/gems/listen-2.2.0/lib/listen/listener.rb:131:in `_wait_for_changes'
+  ... 48 more lines omitted. See full crash log for details.
 
 ===== VERSION INFORMATION:
 
@@ -96,9 +97,9 @@ Linux ubuntu 3.8.0-33-generic #48~precise1-Ubuntu SMP Thu Oct 24 16:28:06 UTC 20
 BUNDLE_BIN_PATH => "/home/luciamariana/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.3.5/bin/bundle"
 BUNDLE_GEMFILE => "/home/luciamariana/projects/website/Gemfile"
 COLORTERM => "gnome-terminal"
-COLUMNS => "142"
+COLUMNS => "143"
 COMPIZ_CONFIG_PROFILE => "ubuntu"
-DBUS_SESSION_BUS_ADDRESS => "unix:abstract=/tmp/dbus-V8QG7OijL6,guid=86504267221a522f7a3fee3800000029"
+DBUS_SESSION_BUS_ADDRESS => "unix:abstract=/tmp/dbus-T9veIFMfCV,guid=3ce92da5017702a041ff11060000013a"
 DEFAULTS_PATH => "/usr/share/gconf/ubuntu.default.path"
 DESKTOP_SESSION => "ubuntu"
 DISPLAY => ":0"
@@ -106,9 +107,9 @@ GDMSESSION => "ubuntu"
 GEM_HOME => "/home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website"
 GEM_PATH => "/home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website:/home/luciamariana/.rvm/gems/ruby-2.0.0-p247@global"
 GNOME_DESKTOP_SESSION_ID => "this-is-deprecated"
-GNOME_KEYRING_CONTROL => "/tmp/keyring-MoCW3j"
-GNOME_KEYRING_PID => "1585"
-GPG_AGENT_INFO => "/tmp/keyring-MoCW3j/gpg:0:1"
+GNOME_KEYRING_CONTROL => "/tmp/keyring-4JF8lo"
+GNOME_KEYRING_PID => "1643"
+GPG_AGENT_INFO => "/tmp/keyring-4JF8lo/gpg:0:1"
 GUARD_NOTIFIERS => "---\n- :name: :notifysend\n  :options:\n    :silent: true\n- :name: :terminal_title\n  :options:\n    :silent: true\n"
 GUARD_NOTIFY => "true"
 HOME => "/home/luciamariana"
@@ -126,11 +127,11 @@ PATH => "/home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/bin:/home/luciamar
 PWD => "/home/luciamariana/projects/website"
 RUBYOPT => "-I/home/luciamariana/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.3.5/lib -rbundler/setup"
 RUBY_VERSION => "ruby-2.0.0-p247"
-SESSION_MANAGER => "local/ubuntu:@/tmp/.ICE-unix/1596,unix/ubuntu:/tmp/.ICE-unix/1596"
+SESSION_MANAGER => "local/ubuntu:@/tmp/.ICE-unix/1654,unix/ubuntu:/tmp/.ICE-unix/1654"
 SHELL => "/bin/bash"
 SHLVL => "1"
-SSH_AGENT_PID => "1637"
-SSH_AUTH_SOCK => "/tmp/keyring-MoCW3j/ssh"
+SSH_AGENT_PID => "1689"
+SSH_AUTH_SOCK => "/tmp/keyring-4JF8lo/ssh"
 TERM => "xterm"
 UBUNTU_MENUPROXY => "libappmenu.so"
 USER => "luciamariana"
@@ -140,7 +141,7 @@ XDG_CONFIG_DIRS => "/etc/xdg/xdg-ubuntu:/etc/xdg"
 XDG_CURRENT_DESKTOP => "Unity"
 XDG_DATA_DIRS => "/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/"
 XDG_SEAT_PATH => "/org/freedesktop/DisplayManager/Seat0"
-XDG_SESSION_COOKIE => "3597bc6b1d5e7d1a7f8dcae000000024-1384952549.153092-1835792030"
+XDG_SESSION_COOKIE => "3597bc6b1d5e7d1a7f8dcae000000024-1385057623.224244-2147468140"
 XDG_SESSION_PATH => "/org/freedesktop/DisplayManager/Session0"
 _ => "/home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website/bin/guard"
 _ORIGINAL_GEM_PATH => "/home/luciamariana/.rvm/gems/ruby-2.0.0-p247@website:/home/luciamariana/.rvm/gems/ruby-2.0.0-p247@global"
@@ -149,11 +150,8 @@ _system_name => "Ubuntu"
 _system_type => "Linux"
 _system_version => "12.04"
 rvm_bin_path => "/home/luciamariana/.rvm/bin"
-rvm_delete_flag => "0"
 rvm_path => "/home/luciamariana/.rvm"
 rvm_prefix => "/home/luciamariana"
-rvm_ruby_string => "ruby-2.0.0-p247"
-rvm_sticky_flag => "1"
 rvm_version => "1.24.1 (stable)"
 
 ===== GEMFILE.LOCK:
