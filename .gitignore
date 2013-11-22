@@ -2,3 +2,5 @@
 output/*
 tmp/*
 *~
+crash.log
+
