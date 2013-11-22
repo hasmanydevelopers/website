@@ -2,7 +2,6 @@
 
 #logotype {
     padding-top: 20px;
-    display:block;
     margin:auto;
 }
 
@@ -51,6 +50,7 @@
     margin-top: 0;
 }
 
-
-
+.img-customer {
+    margin: auto;
+}
 
