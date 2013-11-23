@@ -1,4 +1,6 @@
 # Compiled source #
 output/*
 tmp/*
+*~
 crash.log
+
