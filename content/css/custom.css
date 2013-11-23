@@ -52,5 +52,11 @@
 
 .img-customer {
     margin: auto;
+    height:35px;
+}
+
+.img-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
