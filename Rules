@@ -66,7 +66,7 @@ end
 route '/images/*/' do
   if item.binary?
     # Write item with identifier /foo/ to /foo.ext
-    item.identifier.chop + '.png'
+    item.identifier.chop + '.' + item[:extension]
   end
 end
 
