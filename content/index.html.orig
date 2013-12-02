@@ -19,8 +19,10 @@ title: Home
 
           </div>
           <div class="item">
-            <div class="fill" style="background-image:url('/images/slides/experience.png');"></div>
-
+            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+            <div class="carousel-caption">
+              <h1>Ready to Style &amp; Add Content</h1>
+            </div>
           </div>
           <div class="item">
             <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
@@ -45,7 +47,7 @@ title: Home
 
         <div class="row">
           <div class="col-sm-6 col-md-6">
-            <a href="/"><img id="logo-home" class="img-responsive" src="/images/screenshots_portafolio/logo_hmd_bw.png"></a>
+            <img id="logo-home" class="img-responsive" src="/images/screenshots_portafolio/logo_hmd_bw.png">
           </div>
           <div class="col-sm-6 col-md-6 introduction">
             <h3>We build Web Applications</h3>
@@ -157,28 +159,43 @@ title: Home
     <div class="container" id="free">
 
       <div class="row well">
+<<<<<<< HEAD
+        <div class="col-lg-8 col-md-8">
+          <h4>
+            Questions? We love to hear them!
+            <a href="/contact/">drop us a note</a>, or...
+          </h4>
+          <p>
+            We offer you the option to answer your questions about how is
+            working with us, actually working with us. You can enjoy a full
+            <strong>free week</strong> of one of our full stack developers,
+            so you can try our services first hand without any risk.
+            No questions if you don't want to keep moving forward, keep our
+            commits. No strings attached.
+=======
         <div class="col-lg-12 col-md-12">
           <h2>
             Try one FREE week of our services!
-          </h2>
+          </h2>          
         </div>
       </div><!-- /.row -->
-
+      
       <div class="row well">
         <div class="col-lg-6 col-md-6 introduction">
           <p>
             We think our work is the best PR we can have, so we offer all our
-            prospective customers a <strong>free week</strong> of one of our
+            prospective customers a <strong>free week</strong> of one of our 
             full stack developers, to try our services first hand without any
             risk.
           </p>
-          <p>
+          <p>            
             If you don't want to keep moving forward, just keep all the work we
             have committed. No questions. No strings attached.
           </p>
           <p>
-            If you want to keep moving forward with us (as usually happens) we
-            will include this week in your first invoice.
+            If you want to keep moving forward with us (as usually happens) we 
+            will include this week in your first invoice.  
+>>>>>>> 6b03e20b28a3844da1821a36bcd9c7c44a0e091a
           </p>
         </div>
         <div class="col-lg6 col-md-6">
