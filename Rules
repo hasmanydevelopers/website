@@ -52,6 +52,11 @@ compile '/posts/*' do
   layout 'post'
 end
 
+compile '/promotions/*' do
+  filter :erb
+  layout 'default'
+end
+
 # ********************* ROUTES!!
 
 
@@ -119,6 +124,10 @@ route '/posts/*' do
   else
     "/posts/index.html"
   end
+end
+
+route '/promotions/*' do
+  item.identifier.chop + ".html"
 end
 
 layout '*', :erb
